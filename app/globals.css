@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Use Inter font */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f7fafc; /* Tailwind gray-100 */
+}
+
+/* Style for selected radio button label (before feedback) */
+input[type="radio"]:checked:not(:disabled) + label {
+  background-color: #e0f2fe; /* Tailwind sky-100 */
+  border-color: #38bdf8; /* Tailwind sky-400 */
+}
+
+/* Style for correct/incorrect feedback */
+.feedback-correct {
+  background-color: #dcfce7; /* Tailwind green-100 */
+  border-left: 4px solid #22c55e; /* Tailwind green-500 */
+  color: #166534; /* Tailwind green-800 */
+}
+
+.feedback-incorrect {
+  background-color: #fee2e2; /* Tailwind red-100 */
+  border-left: 4px solid #ef4444; /* Tailwind red-500 */
+  color: #991b1b; /* Tailwind red-800 */
+}
+
+/* Style for disabled options after selection */
+.option-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+}
+
+.option-disabled:hover {
+  background-color: #f3f4f6; /* Keep background same on hover when disabled */
+}
+
+/* Style for highlighting correct answer after submission */
+.correct-answer-highlight {
+  border: 2px solid #22c55e !important; /* Use !important to override other border styles */
+  background-color: #dcfce7 !important; /* Use !important to override other bg styles */
+}
+
+/* Style for highlighting incorrect user answer after submission */
+.incorrect-answer-highlight {
+  border: 2px solid #ef4444 !important;
+  background-color: #fee2e2 !important;
+  opacity: 0.8; /* Slightly fade incorrect choice */
+}
+
+/* Progress bar styles */
+.progress-container {
+  width: 100%;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 8px;
+  margin: 8px 0;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.progress-b1 {
+  background-color: #60a5fa; /* blue-400 */
+}
+
+.progress-b2 {
+  background-color: #34d399; /* green-400 */
+}
+
+.progress-c1 {
+  background-color: #a78bfa; /* purple-400 */
+}
