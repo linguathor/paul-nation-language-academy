@@ -1152,11 +1152,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Проверьте свою компетентность в русском языке с B1 по C1",
     welcomeText: "Добро пожаловать на ваш тест словарного запаса русского языка!",
     instructions: [
-      "Вы ответите на 30 вопросов по словарному запасу.",
-      "После каждого ответа вы получите мгновенную обратную связь (правильно/неправильно) и объяснение.",
-      "В конце вы увидите сводку результатов и вашу предполагаемую оценку.",
-      "На основе вашего уровня мы предоставим рекомендации по следующим шагам обучения.",
-      "Мы будем непрерывно обновлять и улучшать этот тест"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
