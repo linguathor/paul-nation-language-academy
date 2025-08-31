@@ -172,11 +172,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Testez votre niveau de compétence en français du B1 au C1",
     welcomeText: "Bienvenue à votre test de vocabulaire français !",
     instructions: [
-      "Vous répondrez à 30 questions sur le vocabulaire.",
-      "Après chaque réponse, vous recevrez un feedback instantané (correct/incorrect) et une explication.",
-      "À la fin, vous verrez un résumé de vos résultats et votre niveau estimé.",
-      "Selon votre niveau, nous vous fournirons des recommandations pour vos prochaines étapes d'apprentissage.",
-      "Nous mettrons continuellement à jour et améliorerons ce test"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -313,11 +313,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Evalúa tu competencia en español de nivel B1 a C1",
     welcomeText: "¡Bienvenido a tu test de vocabulario en español!",
     instructions: [
-      "Responderás 30 preguntas sobre vocabulario.",
-      "Después de cada respuesta, recibirás retroalimentación instantánea (correcto/incorrecto) y una explicación.",
-      "Al final, verás un resumen de tus resultados y tu nivel estimado.",
-      "Según tu nivel, te proporcionaremos recomendaciones para tus próximos pasos de aprendizaje.",
-      "Actualizaremos y mejoraremos continuamente este test"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -454,11 +454,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Testen Sie Ihre Deutschkenntnisse von B1 bis C1",
     welcomeText: "Willkommen zu Ihrem deutschen Wortschatztest!",
     instructions: [
-      "Sie werden 30 Fragen zum Wortschatz beantworten.",
-      "Nach jeder Antwort erhalten Sie sofortiges Feedback (richtig/falsch) und eine Erklärung.",
-      "Am Ende sehen Sie eine Zusammenfassung Ihrer Ergebnisse und Ihr geschätztes Niveau.",
-      "Basierend auf Ihrem Niveau geben wir Ihnen Empfehlungen für Ihre nächsten Lernschritte.",
-      "Wir werden diesen Test kontinuierlich aktualisieren und verbessern"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -594,11 +594,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "测试您的中文水平从B1到C1",
     welcomeText: "欢迎参加您的中文词汇量测试！",
     instructions: [
-      "您将回答30个词汇问题。",
-      "每次回答后，您将获得即时反馈（正确/错误）和解释。",
-      "最后，您将看到结果摘要和估计水平。",
-      "根据您的水平，我们将为您提供学习建议。",
-      "我们将不断更新和改进这个测试"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -734,11 +734,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Testa la tua competenza in italiano da B1 a C1",
     welcomeText: "Benvenuto al tuo test di vocabolario italiano!",
     instructions: [
-      "Risponderai a 30 domande sul vocabolario.",
-      "Dopo ogni risposta, riceverai un feedback immediato (corretto/sbagliato) e una spiegazione.",
-      "Alla fine, vedrai un riepilogo dei tuoi risultati e il tuo livello stimato.",
-      "In base al tuo livello, ti forniremo raccomandazioni per i tuoi prossimi passi di apprendimento.",
-      "Aggiorneremo e miglioreremo continuamente questo test"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -874,11 +874,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "B1からC1までの日本語能力をテスト",
     welcomeText: "日本語ボキャブラリーテストへようこそ！",
     instructions: [
-      "語彙に関する30問に答えます。",
-      "各回答後に即時フィードバック（正解/不正解）と説明が表示されます。",
-      "最後に結果の概要と推定レベルが表示されます。",
-      "レベルに応じて、次の学習ステップに関する推奨事項を提供します。",
-      "このテストを継続的に更新・改善していきます"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -1013,11 +1013,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Teste sua competência em português do B1 ao C1",
     welcomeText: "Bem-vindo ao seu teste de vocabulário português!",
     instructions: [
-      "Você responderá 30 perguntas sobre vocabulário.",
-      "Após cada resposta, você receberá feedback imediato (correto/incorreto) e uma explicação.",
-      "No final, você verá um resumo dos seus resultados e seu nível estimado.",
-      "Com base no seu nível, forneceremos recomendações para seus próximos passos de aprendizagem.",
-      "Atualizaremos e melhoraremos continuamente este teste"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
@@ -1291,11 +1291,11 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     description: "Test uw competentie in het Nederlands van B1 tot C1",
     welcomeText: "Welkom bij uw Nederlandse woordenschat test!",
     instructions: [
-      "U beantwoordt 30 vragen over woordenschat.",
-      "Na elk antwoord ontvangt u directe feedback (correct/onjuist) en een uitleg.",
-      "Aan het einde ziet u een samenvatting van uw resultaten en uw geschatte niveau.",
-      "Op basis van uw niveau geven wij aanbevelingen voor uw volgende leerstappen.",
-      "Wij zullen deze test continu bijwerken en verbeteren"
+      "You'll answer 30 questions on vocabulary.",
+      "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
+      "At the end, you'll see a summary of your results and an estimated proficiency level.",
+      "Based on your level, we'll provide recommendations for your next steps in learning.",
+      "We will continuously update and improve this test"
     ],
     recommendations: {
       "Below B1": {
