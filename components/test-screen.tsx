@@ -115,7 +115,7 @@ export default function TestScreen({
 
     // Thresholds for percentage scores (can be adjusted as needed)
     const passStrongThreshold = 75 // Represents a solid grasp of the level
-    const passMidThreshold = 60 // Represents a likely grasp or approaching the level well
+    const passMidThreshold = 60 // Represents a approaching the level well
     const passMinThreshold = 50 // Represents a minimum performance to be considered 'approaching'
 
     // Determine estimated level based on performance, requiring proficiency in lower levels.
@@ -131,21 +131,21 @@ export default function TestScreen({
       if (c1Percentage >= passStrongThreshold) {
         estimatedLevel = "Solid C1"
       } else {
-        estimatedLevel = "Likely C1"
+        estimatedLevel = "Approaching C1"
       }
     } else if (totalB2 > 0 && b2Percentage >= passMidThreshold && totalB1 > 0 && b1Percentage >= passMidThreshold) {
       // Qualifies for B2 consideration (if not C1)
       if (b2Percentage >= passStrongThreshold) {
         estimatedLevel = "Solid B2"
       } else {
-        estimatedLevel = "Likely B2"
+        estimatedLevel = "Approaching B2"
       }
     } else if (totalB1 > 0 && b1Percentage >= passMidThreshold) {
       // Qualifies for B1 consideration (if not C1 or B2)
       if (b1Percentage >= passStrongThreshold) {
         estimatedLevel = "Solid B1"
       } else {
-        estimatedLevel = "Likely B1"
+        estimatedLevel = "Approaching B1"
       }
     } else if (totalB1 > 0 && b1Percentage >= passMinThreshold) {
       // If not meeting mid-threshold for B1, check for minimum threshold

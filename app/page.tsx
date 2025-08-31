@@ -104,26 +104,6 @@ export default function Home() {
   const jumpToResultsApproachingB1 = () => {
     const mockScores: FinalScores = {
       estimatedLevel: "Approaching B1",
-      overallScore: 16,
-      totalQuestions: 30,
-      overallPercentage: 53,
-      b1Correct: 6,
-      b1Total: 10,
-      b1Percentage: 60,
-      b2Correct: 5,
-      b2Total: 10,
-      b2Percentage: 50,
-      c1Correct: 5,
-      c1Total: 10,
-      c1Percentage: 50,
-    }
-    setFinalScores(mockScores)
-    setCurrentScreen("results")
-  }
-
-  const jumpToResultsLikelyB1 = () => {
-    const mockScores: FinalScores = {
-      estimatedLevel: "Likely B1",
       overallScore: 19,
       totalQuestions: 30,
       overallPercentage: 63,
@@ -161,9 +141,9 @@ export default function Home() {
     setCurrentScreen("results")
   }
 
-  const jumpToResultsLikelyB2 = () => {
+  const jumpToResultsApproachingB2 = () => {
     const mockScores: FinalScores = {
-      estimatedLevel: "Likely B2",
+      estimatedLevel: "Approaching B2",
       overallScore: 20,
       totalQuestions: 30,
       overallPercentage: 67,
@@ -201,9 +181,9 @@ export default function Home() {
     setCurrentScreen("results")
   }
 
-  const jumpToResultsLikelyC1 = () => {
+  const jumpToResultsApproachingC1 = () => {
     const mockScores: FinalScores = {
-      estimatedLevel: "Likely C1",
+      estimatedLevel: "Approaching C1",
       overallScore: 22,
       totalQuestions: 30,
       overallPercentage: 73,
@@ -258,11 +238,10 @@ export default function Home() {
             onJumpToResults={jumpToResults}
             onJumpToResultsBelowB1={jumpToResultsBelowB1}
             onJumpToResultsApproachingB1={jumpToResultsApproachingB1}
-            onJumpToResultsLikelyB1={jumpToResultsLikelyB1}
             onJumpToResultsSolidB1={jumpToResultsSolidB1}
-            onJumpToResultsLikelyB2={jumpToResultsLikelyB2}
+            onJumpToResultsApproachingB2={jumpToResultsApproachingB2}
             onJumpToResultsSolidB2={jumpToResultsSolidB2}
-            onJumpToResultsLikelyC1={jumpToResultsLikelyC1}
+            onJumpToResultsApproachingC1={jumpToResultsApproachingC1}
             onJumpToResultsSolidC1={jumpToResultsSolidC1}
             selectedLanguage={selectedLanguage}
           />

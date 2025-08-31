@@ -7,11 +7,10 @@ interface WelcomeScreenProps {
   onJumpToResults: () => void
   onJumpToResultsBelowB1: () => void
   onJumpToResultsApproachingB1: () => void
-  onJumpToResultsLikelyB1: () => void
   onJumpToResultsSolidB1: () => void
-  onJumpToResultsLikelyB2: () => void
+  onJumpToResultsApproachingB2: () => void
   onJumpToResultsSolidB2: () => void
-  onJumpToResultsLikelyC1: () => void
+  onJumpToResultsApproachingC1: () => void
   onJumpToResultsSolidC1: () => void
   selectedLanguage: string | null
 }
@@ -21,11 +20,10 @@ export default function WelcomeScreen({
   onJumpToResults,
   onJumpToResultsBelowB1,
   onJumpToResultsApproachingB1,
-  onJumpToResultsLikelyB1,
   onJumpToResultsSolidB1,
-  onJumpToResultsLikelyB2,
+  onJumpToResultsApproachingB2,
   onJumpToResultsSolidB2,
-  onJumpToResultsLikelyC1,
+  onJumpToResultsApproachingC1,
   onJumpToResultsSolidC1,
   selectedLanguage
 }: WelcomeScreenProps) {
@@ -72,10 +70,10 @@ export default function WelcomeScreen({
             Approaching B1
           </button>
           <button
-            onClick={onJumpToResultsLikelyB1}
+            onClick={onJumpToResultsApproachingB1}
             className="bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-2 px-3 rounded text-sm shadow transition duration-200 ease-in-out"
           >
-            Likely B1
+            Approaching B1
           </button>
           <button
             onClick={onJumpToResultsSolidB1}
@@ -84,10 +82,10 @@ export default function WelcomeScreen({
             Solid B1
           </button>
           <button
-            onClick={onJumpToResultsLikelyB2}
+            onClick={onJumpToResultsApproachingB2}
             className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 px-3 rounded text-sm shadow transition duration-200 ease-in-out"
           >
-            Likely B2
+            Approaching B2
           </button>
           <button
             onClick={onJumpToResultsSolidB2}
@@ -96,10 +94,10 @@ export default function WelcomeScreen({
             Solid B2
           </button>
           <button
-            onClick={onJumpToResultsLikelyC1}
+            onClick={onJumpToResultsApproachingC1}
             className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-3 rounded text-sm shadow transition duration-200 ease-in-out"
           >
-            Likely C1
+            Approaching C1
           </button>
           <button
             onClick={onJumpToResultsSolidC1}

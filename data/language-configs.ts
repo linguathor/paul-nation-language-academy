@@ -54,52 +54,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
           tip: "Don't worry about making mistakes – focus on communicating your ideas, even if imperfectly."
         }
       },
-      "Approaching B1": {
-        short: "Focus on building your core vocabulary through extensive reading, listening to English media, and practicing high-frequency words in context.",
-        detailed: {
-          title: "Intermediate Level – Expanding Your Core Vocabulary",
-          description: "You can handle everyday situations and express personal opinions. Focus on building a stronger vocabulary foundation and improving fluency.",
-          focus: "Core vocabulary expansion & fluency building",
-          activities: [
-            "Input sources: Graded readers, news websites (BBC Learning English), educational podcasts",
-            "Vocabulary priorities: Focus on most frequent 3,000 words, phrasal verbs, topic-specific vocab",
-            "Learning strategies: Use flashcards with example sentences, keep a vocabulary notebook",
-            "Practice activities: Join conversation groups, write diary entries, describe daily activities"
-          ],
-          tip: "Consistency is key – study a little bit every day rather than cramming occasionally."
-        }
-      },
-      "Likely B1": {
-        short: "Focus on expanding your academic vocabulary, idiomatic expressions, and context-specific terminology.",
-        detailed: {
-          title: "Upper-Intermediate Level – Building Advanced Vocabulary",
-          description: "You have a solid vocabulary foundation and can handle most everyday situations. Focus on expanding your range and developing more sophisticated expression.",
-          focus: "Academic vocabulary, complex expressions & contextual usage",
-          activities: [
-            "Reading & Listening: News articles, podcasts, TED talks, academic texts in areas of interest",
-            "Vocabulary building: Work on Academic Word List (AWL), word families and derivatives",
-            "Practice strategies: Use spaced repetition systems, create vocabulary journals",
-            "Output practice: Write essays, participate in discussions, give presentations"
-          ],
-          tip: "Quality over quantity – deeply learn fewer words rather than superficially knowing many."
-        }
-      },
-      "Solid B1": {
-        short: "Focus on expanding your academic vocabulary, idiomatic expressions, and context-specific terminology.",
-        detailed: {
-          title: "Upper-Intermediate Level – Building Advanced Vocabulary",
-          description: "You have a solid vocabulary foundation and can handle most everyday situations. Focus on expanding your range and developing more sophisticated expression.",
-          focus: "Academic vocabulary, complex expressions & contextual usage",
-          activities: [
-            "Reading & Listening: News articles, podcasts, TED talks, academic texts in areas of interest",
-            "Vocabulary building: Work on Academic Word List (AWL), word families and derivatives",
-            "Practice strategies: Use spaced repetition systems, create vocabulary journals",
-            "Output practice: Write essays, participate in discussions, give presentations"
-          ],
-          tip: "Quality over quantity – deeply learn fewer words rather than superficially knowing many."
-        }
-      },
-      "Likely B2": {
+      "Approaching B2": {
         short: "Great progress! You have a solid vocabulary foundation. Work on expanding your academic vocabulary, idiomatic expressions, and context-specific terminology.",
         detailed: {
           title: "Upper-Intermediate Level – Building Advanced Vocabulary",
@@ -129,7 +84,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
           tip: "Quality over quantity – deeply learn fewer words rather than superficially knowing many."
         }
       },
-      "Likely C1": {
+      "Approaching C1": {
         short: "Excellent! Your vocabulary is at an advanced level. Focus on specialized terminology, academic writing, and nuanced expressions to reach near-native proficiency.",
         detailed: {
           title: "Advanced Level – Refining Your English Mastery",
@@ -168,9 +123,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "French",
     nativeName: "Français",
     flag: "🇫🇷",
-    title: "Test de Vocabulaire Français",
-    description: "Testez votre niveau de compétence en français du B1 au C1",
-    welcomeText: "Bienvenue à votre test de vocabulaire français !",
+    title: "French Vocabulary Size Test",
+    description: "Test your French language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your French Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -180,124 +135,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Concentrez-vous sur l'apprentissage des mots les plus fréquents et de la communication de base.",
+        short: "Focus on learning the most frequent French words and basic communication skills.",
         detailed: {
-          title: "Niveau Élémentaire – Construire vos Bases",
-          description: "Vous construisez les bases de votre vocabulaire français. Concentrez-vous sur les mots les plus courants.",
-          focus: "Vocabulaire essentiel & communication de base",
+          title: "Elementary Level – Building Your French Foundation",
+          description: "You're building your French vocabulary foundation. Focus on the most common French words.",
+          focus: "Essential French vocabulary & basic communication",
           activities: [
-            "Vocabulaire prioritaire : Les 1 000-2 000 mots français les plus fréquents",
-            "Matériels d'apprentissage : Manuels pour débutants, applications linguistiques",
-            "Méthodes de pratique : Utilisez des images et associations visuelles",
-            "Pratique de communication : Conversations basiques sur des sujets familiers"
+            "Priority vocabulary: The 1,000-2,000 most frequent French words",
+            "Learning materials: Beginner French textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for French words",
+            "Communication practice: Basic conversations about familiar topics in French"
           ],
-          tip: "Ne vous inquiétez pas des erreurs – concentrez-vous sur la communication de vos idées."
+          tip: "Don't worry about mistakes – focus on communicating your ideas in French."
         }
       },
-      // Similar structure for other levels...
       "Approaching B1": {
-        short: "Concentrez-vous sur l'expansion de votre vocabulaire de base.",
+        short: "Focus on expanding your core French vocabulary and improving fluency.",
         detailed: {
-          title: "Niveau Intermédiaire – Élargir votre Vocabulaire",
-          description: "Vous pouvez gérer les situations quotidiennes. Concentrez-vous sur l'expansion de votre vocabulaire.",
-          focus: "Expansion du vocabulaire de base & fluidité",
+          title: "Intermediate Level – Expanding Your French Vocabulary",
+          description: "You can handle everyday French situations. Focus on expanding your vocabulary range.",
+          focus: "Core French vocabulary expansion & fluency",
           activities: [
-            "Sources d'entrée : Lecteurs gradués, podcasts éducatifs en français",
-            "Priorités vocabulaire : Les 3 000 mots les plus fréquents, verbes à particule",
-            "Stratégies d'apprentissage : Cartes mémoire, carnets de vocabulaire",
-            "Activités de pratique : Groupes de conversation, journaux intimes"
+            "Input sources: French graded readers, educational French podcasts",
+            "Vocabulary priorities: The 3,000 most frequent French words, phrasal verbs",
+            "Learning strategies: Flashcards for French words, vocabulary notebooks",
+            "Practice activities: French conversation groups, journaling in French"
           ],
-          tip: "La régularité est essentielle – étudiez un peu chaque jour."
+          tip: "Consistency is essential – study French a little each day."
         }
       },
-      "Likely B1": {
-        short: "Excellent progrès ! Concentrez-vous sur le vocabulaire académique et les expressions complexes.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic French vocabulary and complex expressions.",
         detailed: {
-          title: "Niveau Intermédiaire Supérieur – Vocabulaire Avancé",
-          description: "Vous avez une base solide. Concentrez-vous sur l'expansion de votre registre.",
-          focus: "Vocabulaire académique, expressions complexes & usage contextuel",
+          title: "Upper Intermediate Level – Advanced French Vocabulary",
+          description: "You have a solid French foundation. Focus on expanding your register and range.",
+          focus: "Academic French vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lecture & Écoute : Articles d'actualité, TED talks, textes académiques",
-            "Construction du vocabulaire : Liste de mots académiques, familles de mots",
-            "Stratégies de pratique : Systèmes de répétition espacée, journaux de vocabulaire",
-            "Pratique de production : Rédaction d'essais, discussions, présentations"
+            "Reading & Listening: French news articles, TED talks, academic French texts",
+            "Vocabulary building: Academic French word lists, French word families",
+            "Practice strategies: Spaced repetition systems, French vocabulary journals",
+            "Production practice: Writing French essays, discussions, French presentations"
           ],
-          tip: "Qualité plutôt que quantité – apprenez profondément moins de mots."
-        }
-      },
-      "Solid B1": {
-        short: "Excellent progrès ! Concentrez-vous sur le vocabulaire académique et les expressions complexes.",
-        detailed: {
-          title: "Niveau Intermédiaire Supérieur – Vocabulaire Avancé",
-          description: "Vous avez une base solide. Concentrez-vous sur l'expansion de votre registre.",
-          focus: "Vocabulaire académique, expressions complexes & usage contextuel",
-          activities: [
-            "Lecture & Écoute : Articles d'actualité, TED talks, textes académiques",
-            "Construction du vocabulaire : Liste de mots académiques, familles de mots",
-            "Stratégies de pratique : Systèmes de répétition espacée, journaux de vocabulaire",
-            "Pratique de production : Rédaction d'essais, discussions, présentations"
-          ],
-          tip: "Qualité plutôt que quantité – apprenez profondément moins de mots."
-        }
-      },
-      "Likely B2": {
-        short: "Excellent progrès ! Concentrez-vous sur le vocabulaire académique et les expressions complexes.",
-        detailed: {
-          title: "Niveau Intermédiaire Supérieur – Vocabulaire Avancé",
-          description: "Vous avez une base solide. Concentrez-vous sur l'expansion de votre registre.",
-          focus: "Vocabulaire académique, expressions complexes & usage contextuel",
-          activities: [
-            "Lecture & Écoute : Articles d'actualité, TED talks, textes académiques",
-            "Construction du vocabulaire : Liste de mots académiques, familles de mots",
-            "Stratégies de pratique : Systèmes de répétition espacée, journaux de vocabulaire",
-            "Pratique de production : Rédaction d'essais, discussions, présentations"
-          ],
-          tip: "Qualité plutôt que quantité – apprenez profondément moins de mots."
+          tip: "Quality over quantity – learn fewer French words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Excellent progrès ! Concentrez-vous sur le vocabulaire académique et les expressions complexes.",
+        short: "Excellent progress! Focus on academic French vocabulary and complex expressions.",
         detailed: {
-          title: "Niveau Intermédiaire Supérieur – Vocabulaire Avancé",
-          description: "Vous avez une base solide. Concentrez-vous sur l'expansion de votre registre.",
-          focus: "Vocabulaire académique, expressions complexes & usage contextuel",
+          title: "Upper Intermediate Level – Advanced French Vocabulary",
+          description: "You have a solid French foundation. Focus on expanding your register and range.",
+          focus: "Academic French vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lecture & Écoute : Articles d'actualité, TED talks, textes académiques",
-            "Construction du vocabulaire : Liste de mots académiques, familles de mots",
-            "Stratégies de pratique : Systèmes de répétition espacée, journaux de vocabulaire",
-            "Pratique de production : Rédaction d'essais, discussions, présentations"
+            "Reading & Listening: French news articles, TED talks, academic French texts",
+            "Vocabulary building: Academic French word lists, French word families",
+            "Practice strategies: Spaced repetition systems, French vocabulary journals",
+            "Production practice: Writing French essays, discussions, French presentations"
           ],
-          tip: "Qualité plutôt que quantité – apprenez profondément moins de mots."
+          tip: "Quality over quantity – learn fewer French words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Excellent ! Votre vocabulaire est à un niveau avancé. Concentrez-vous sur la terminologie spécialisée.",
+      "Approaching C1": {
+        short: "Outstanding! Your French vocabulary is at an advanced level. Focus on specialized French terminology.",
         detailed: {
-          title: "Niveau Avancé – Raffiner votre Maîtrise du Français",
-          description: "Votre vocabulaire est à un niveau avancé. Concentrez-vous sur la fluidité native-like.",
-          focus: "Vocabulaire spécialisé, expressions nuancées & précision académique",
+          title: "Advanced Level – Refining Your French Mastery",
+          description: "Your French vocabulary is at an advanced level. Focus on native-like fluency in French.",
+          focus: "Specialized French vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lecture : Revues académiques, œuvres littéraires, publications professionnelles",
-            "Écoute : Conférences académiques, films documentaires, analyses d'actualité",
-            "Expansion du vocabulaire : Collocations, expressions idiomatiques, terminologie académique",
-            "Pratique : Débats, rédaction d'articles, présentations sur des sujets complexes"
+            "Reading: French academic journals, French literature, professional French publications",
+            "Listening: French academic conferences, French documentaries, French current affairs analysis",
+            "Vocabulary expansion: French collocations, French idioms, French academic terminology",
+            "Practice: French debates, writing French articles, presentations on complex topics in French"
           ],
-          tip: "Fixez-vous des objectifs spécifiques comme réussir des tests de compétence avancée."
+          tip: "Set specific French goals like passing advanced French proficiency tests."
         }
       },
       "Solid C1": {
-        short: "Excellent ! Votre vocabulaire est à un niveau avancé. Concentrez-vous sur la terminologie spécialisée.",
+        short: "Excellent! Your French vocabulary is at an advanced level. Focus on specialized French terminology.",
         detailed: {
-          title: "Niveau Avancé – Raffiner votre Maîtrise du Français",
-          description: "Votre vocabulaire est à un niveau avancé. Concentrez-vous sur la fluidité native-like.",
-          focus: "Vocabulaire spécialisé, expressions nuancées & précision académique",
+          title: "Advanced Level – Refining Your French Mastery",
+          description: "Your French vocabulary is at an advanced level. Focus on native-like fluency in French.",
+          focus: "Specialized French vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lecture : Revues académiques, œuvres littéraires, publications professionnelles",
-            "Écoute : Conférences académiques, films documentaires, analyses d'actualité",
-            "Expansion du vocabulaire : Collocations, expressions idiomatiques, terminologie académique",
-            "Pratique : Débats, rédaction d'articles, présentations sur des sujets complexes"
+            "Reading: French academic journals, French literature, professional French publications",
+            "Listening: French academic conferences, French documentaries, French current affairs analysis",
+            "Vocabulary expansion: French collocations, French idioms, French academic terminology",
+            "Practice: French debates, writing French articles, presentations on complex topics in French"
           ],
-          tip: "Fixez-vous des objectifs spécifiques comme réussir des tests de compétence avancée."
+          tip: "Set specific French goals like passing advanced French proficiency tests."
         }
       }
     }
@@ -309,9 +233,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Spanish",
     nativeName: "Español",
     flag: "🇪🇸",
-    title: "Test de Vocabulario Español",
-    description: "Evalúa tu competencia en español de nivel B1 a C1",
-    welcomeText: "¡Bienvenido a tu test de vocabulario en español!",
+    title: "Spanish Vocabulary Size Test",
+    description: "Test your Spanish language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Spanish Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -321,124 +245,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Concéntrate en aprender las palabras más frecuentes y la comunicación básica.",
+        short: "Focus on learning the most frequent Spanish words and basic communication skills.",
         detailed: {
-          title: "Nivel Elemental – Construyendo tus Bases",
-          description: "Estás construyendo las bases de tu vocabulario en español. Concéntrate en las palabras más comunes.",
-          focus: "Vocabulario esencial & comunicación básica",
+          title: "Elementary Level – Building Your Spanish Foundation",
+          description: "You're building your Spanish vocabulary foundation. Focus on the most common Spanish words.",
+          focus: "Essential Spanish vocabulary & basic communication",
           activities: [
-            "Vocabulario prioritario: Las 1,000-2,000 palabras españolas más frecuentes",
-            "Materiales de aprendizaje: Libros para principiantes, aplicaciones de idiomas",
-            "Métodos de práctica: Usa imágenes y asociaciones visuales",
-            "Práctica de comunicación: Conversaciones básicas sobre temas familiares"
+            "Priority vocabulary: The 1,000-2,000 most frequent Spanish words",
+            "Learning materials: Beginner Spanish textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Spanish words",
+            "Communication practice: Basic conversations about familiar topics in Spanish"
           ],
-          tip: "No te preocupes por los errores – concéntrate en comunicar tus ideas."
+          tip: "Don't worry about mistakes – focus on communicating your ideas in Spanish."
         }
       },
-      // Similar structure for other levels...
       "Approaching B1": {
-        short: "Concéntrate en expandir tu vocabulario básico.",
+        short: "Focus on expanding your core Spanish vocabulary and improving fluency.",
         detailed: {
-          title: "Nivel Intermedio – Expandiendo tu Vocabulario",
-          description: "Puedes manejar situaciones cotidianas. Concéntrate en expandir tu vocabulario.",
-          focus: "Expansión del vocabulario básico & fluidez",
+          title: "Intermediate Level – Expanding Your Spanish Vocabulary",
+          description: "You can handle everyday Spanish situations. Focus on expanding your vocabulary range.",
+          focus: "Core Spanish vocabulary expansion & fluency",
           activities: [
-            "Fuentes de entrada: Lectores graduados, podcasts educativos en español",
-            "Prioridades de vocabulario: Las 3,000 palabras más frecuentes, expresiones idiomáticas",
-            "Estrategias de aprendizaje: Tarjetas de memoria, cuadernos de vocabulario",
-            "Actividades de práctica: Grupos de conversación, diarios personales"
+            "Input sources: Spanish graded readers, educational Spanish podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Spanish words, Spanish idiomatic expressions",
+            "Learning strategies: Flashcards for Spanish words, vocabulary notebooks",
+            "Practice activities: Spanish conversation groups, journaling in Spanish"
           ],
-          tip: "La regularidad es esencial – estudia un poco cada día."
+          tip: "Consistency is essential – study Spanish a little each day."
         }
       },
-      "Likely B1": {
-        short: "¡Excelente progreso! Concéntrate en vocabulario académico y expresiones complejas.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Spanish vocabulary and complex expressions.",
         detailed: {
-          title: "Nivel Intermedio Superior – Vocabulario Avanzado",
-          description: "Tienes una base sólida. Concéntrate en expandir tu registro.",
-          focus: "Vocabulario académico, expresiones complejas & uso contextual",
+          title: "Upper Intermediate Level – Advanced Spanish Vocabulary",
+          description: "You have a solid Spanish foundation. Focus on expanding your register and range.",
+          focus: "Academic Spanish vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lectura y Escucha: Artículos de noticias, TED talks, textos académicos",
-            "Construcción de vocabulario: Lista de palabras académicas, familias de palabras",
-            "Estrategias de práctica: Sistemas de repetición espaciada, diarios de vocabulario",
-            "Práctica de producción: Redacción de ensayos, discusiones, presentaciones"
+            "Reading & Listening: Spanish news articles, TED talks, academic Spanish texts",
+            "Vocabulary building: Academic Spanish word lists, Spanish word families",
+            "Practice strategies: Spaced repetition systems, Spanish vocabulary journals",
+            "Production practice: Writing Spanish essays, discussions, Spanish presentations"
           ],
-          tip: "Calidad sobre cantidad – aprende profundamente menos palabras."
-        }
-      },
-      "Solid B1": {
-        short: "¡Excelente progreso! Concéntrate en vocabulario académico y expresiones complejas.",
-        detailed: {
-          title: "Nivel Intermedio Superior – Vocabulario Avanzado",
-          description: "Tienes una base sólida. Concéntrate en expandir tu registro.",
-          focus: "Vocabulario académico, expresiones complejas & uso contextual",
-          activities: [
-            "Lectura y Escucha: Artículos de noticias, TED talks, textos académicos",
-            "Construcción de vocabulario: Lista de palabras académicas, familias de palabras",
-            "Estrategias de práctica: Sistemas de repetición espaciada, diarios de vocabulario",
-            "Práctica de producción: Redacción de ensayos, discusiones, presentaciones"
-          ],
-          tip: "Calidad sobre cantidad – aprende profundamente menos palabras."
-        }
-      },
-      "Likely B2": {
-        short: "¡Excelente progreso! Concéntrate en vocabulario académico y expresiones complejas.",
-        detailed: {
-          title: "Nivel Intermedio Superior – Vocabulario Avanzado",
-          description: "Tienes una base sólida. Concéntrate en expandir tu registro.",
-          focus: "Vocabulario académico, expresiones complejas & uso contextual",
-          activities: [
-            "Lectura y Escucha: Artículos de noticias, TED talks, textos académicos",
-            "Construcción de vocabulario: Lista de palabras académicas, familias de palabras",
-            "Estrategias de práctica: Sistemas de repetición espaciada, diarios de vocabulario",
-            "Práctica de producción: Redacción de ensayos, discusiones, presentaciones"
-          ],
-          tip: "Calidad sobre cantidad – aprende profundamente menos palabras."
+          tip: "Quality over quantity – learn fewer Spanish words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "¡Excelente progreso! Concéntrate en vocabulario académico y expresiones complejas.",
+        short: "Excellent progress! Focus on academic Spanish vocabulary and complex expressions.",
         detailed: {
-          title: "Nivel Intermedio Superior – Vocabulario Avanzado",
-          description: "Tienes una base sólida. Concéntrate en expandir tu registro.",
-          focus: "Vocabulario académico, expresiones complejas & uso contextual",
+          title: "Upper Intermediate Level – Advanced Spanish Vocabulary",
+          description: "You have a solid Spanish foundation. Focus on expanding your register and range.",
+          focus: "Academic Spanish vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lectura y Escucha: Artículos de noticias, TED talks, textos académicos",
-            "Construcción de vocabulario: Lista de palabras académicas, familias de palabras",
-            "Estrategias de práctica: Sistemas de repetición espaciada, diarios de vocabulario",
-            "Práctica de producción: Redacción de ensayos, discusiones, presentaciones"
+            "Reading & Listening: Spanish news articles, TED talks, academic Spanish texts",
+            "Vocabulary building: Academic Spanish word lists, Spanish word families",
+            "Practice strategies: Spaced repetition systems, Spanish vocabulary journals",
+            "Production practice: Writing Spanish essays, discussions, Spanish presentations"
           ],
-          tip: "Calidad sobre cantidad – aprende profundamente menos palabras."
+          tip: "Quality over quantity – learn fewer Spanish words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "¡Excelente! Tu vocabulario está en nivel avanzado. Concéntrate en terminología especializada.",
+      "Approaching C1": {
+        short: "Outstanding! Your Spanish vocabulary is at an advanced level. Focus on specialized Spanish terminology.",
         detailed: {
-          title: "Nivel Avanzado – Refinando tu Dominio del Español",
-          description: "Tu vocabulario está en nivel avanzado. Concéntrate en fluidez nativa.",
-          focus: "Vocabulario especializado, expresiones matizadas & precisión académica",
+          title: "Advanced Level – Refining Your Spanish Mastery",
+          description: "Your Spanish vocabulary is at an advanced level. Focus on native-like fluency in Spanish.",
+          focus: "Specialized Spanish vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lectura: Revistas académicas, obras literarias, publicaciones profesionales",
-            "Escucha: Conferencias académicas, documentales, análisis de noticias",
-            "Expansión de vocabulario: Colocaciones, expresiones idiomáticas, terminología académica",
-            "Práctica: Debates, redacción de artículos, presentaciones sobre temas complejos"
+            "Reading: Spanish academic journals, Spanish literature, professional Spanish publications",
+            "Listening: Spanish academic conferences, Spanish documentaries, Spanish current affairs analysis",
+            "Vocabulary expansion: Spanish collocations, Spanish idioms, Spanish academic terminology",
+            "Practice: Spanish debates, writing Spanish articles, presentations on complex topics in Spanish"
           ],
-          tip: "Establece objetivos específicos como aprobar exámenes de competencia avanzada."
+          tip: "Set specific Spanish goals like passing advanced Spanish proficiency tests."
         }
       },
       "Solid C1": {
-        short: "¡Excelente! Tu vocabulario está en nivel avanzado. Concéntrate en terminología especializada.",
+        short: "Excellent! Your Spanish vocabulary is at an advanced level. Focus on specialized Spanish terminology.",
         detailed: {
-          title: "Nivel Avanzado – Refinando tu Dominio del Español",
-          description: "Tu vocabulario está en nivel avanzado. Concéntrate en fluidez nativa.",
-          focus: "Vocabulario especializado, expresiones matizadas & precisión académica",
+          title: "Advanced Level – Refining Your Spanish Mastery",
+          description: "Your Spanish vocabulary is at an advanced level. Focus on native-like fluency in Spanish.",
+          focus: "Specialized Spanish vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lectura: Revistas académicas, obras literarias, publicaciones profesionales",
-            "Escucha: Conferencias académicas, documentales, análisis de noticias",
-            "Expansión de vocabulario: Colocaciones, expresiones idiomáticas, terminología académica",
-            "Práctica: Debates, redacción de artículos, presentaciones sobre temas complejos"
+            "Reading: Spanish academic journals, Spanish literature, professional Spanish publications",
+            "Listening: Spanish academic conferences, Spanish documentaries, Spanish current affairs analysis",
+            "Vocabulary expansion: Spanish collocations, Spanish idioms, Spanish academic terminology",
+            "Practice: Spanish debates, writing Spanish articles, presentations on complex topics in Spanish"
           ],
-          tip: "Establece objetivos específicos como aprobar exámenes de competencia avanzada."
+          tip: "Set specific Spanish goals like passing advanced Spanish proficiency tests."
         }
       }
     }
@@ -450,9 +343,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "German",
     nativeName: "Deutsch",
     flag: "🇩🇪",
-    title: "Deutscher Wortschatztest",
-    description: "Testen Sie Ihre Deutschkenntnisse von B1 bis C1",
-    welcomeText: "Willkommen zu Ihrem deutschen Wortschatztest!",
+    title: "German Vocabulary Size Test",
+    description: "Test your German language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your German Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -462,123 +355,78 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Konzentrieren Sie sich auf die häufigsten Wörter und grundlegende Kommunikation.",
+        short: "Focus on learning the most frequent German words and basic communication skills.",
         detailed: {
-          title: "Elementarstufe – Ihre Grundlagen aufbauen",
-          description: "Sie bauen Ihre Grundlagen im deutschen Wortschatz auf. Konzentrieren Sie sich auf die häufigsten Wörter.",
-          focus: "Wichtiger Wortschatz & grundlegende Kommunikation",
+          title: "Elementary Level – Building Your German Foundation",
+          description: "You're building your German vocabulary foundation. Focus on the most common German words.",
+          focus: "Essential German vocabulary & basic communication",
           activities: [
-            "Wortschatz-Prioritäten: Die 1.000-2.000 häufigsten deutschen Wörter",
-            "Lernmaterialien: Lehrbücher für Anfänger, Sprachlern-Apps",
-            "Übungsmethoden: Verwenden Sie Bilder und visuelle Assoziationen",
-            "Kommunikationspraxis: Grundlegende Gespräche über vertraute Themen"
+            "Priority vocabulary: The 1,000-2,000 most frequent German words",
+            "Learning materials: Beginner German textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for German words",
+            "Communication practice: Basic conversations about familiar topics in German"
           ],
-          tip: "Machen Sie sich keine Sorgen über Fehler – konzentrieren Sie sich auf die Kommunikation Ihrer Ideen."
+          tip: "Don't worry about mistakes – focus on communicating your ideas in German."
         }
       },
-      "Approaching B1": {
-        short: "Konzentrieren Sie sich auf die Erweiterung Ihres Grundwortschatzes.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic German vocabulary and complex expressions.",
         detailed: {
-          title: "Mittelstufe – Ihren Wortschatz erweitern",
-          description: "Sie können alltägliche Situationen bewältigen. Konzentrieren Sie sich auf die Erweiterung Ihres Wortschatzes.",
-          focus: "Erweiterung des Grundwortschatzes & flüssiges Sprechen",
+          title: "Upper Intermediate Level – Advanced German Vocabulary",
+          description: "You have a solid German foundation. Focus on expanding your register and range.",
+          focus: "Academic German vocabulary, complex expressions & contextual usage",
           activities: [
-            "Eingabequellen: Abgestufte Lesetexte, pädagogische Podcasts auf Deutsch",
-            "Wortschatz-Prioritäten: Die 3.000 häufigsten Wörter, idiomatische Ausdrücke",
-            "Lernstrategien: Karteikarten, Wortschatz-Hefte",
-            "Übungsaktivitäten: Gesprächsgruppen, Tagebücher"
+            "Reading & Listening: German news articles, TED talks, academic German texts",
+            "Vocabulary building: Academic German word lists, German word families",
+            "Practice strategies: Spaced repetition systems, German vocabulary journals",
+            "Production practice: Writing German essays, discussions, German presentations"
           ],
-          tip: "Regelmäßigkeit ist entscheidend – lernen Sie täglich ein wenig."
-        }
-      },
-      "Likely B1": {
-        short: "Ausgezeichneter Fortschritt! Konzentrieren Sie sich auf akademischen Wortschatz und komplexe Ausdrücke.",
-        detailed: {
-          title: "Obere Mittelstufe – Fortgeschrittener Wortschatz",
-          description: "Sie haben eine solide Grundlage. Konzentrieren Sie sich auf die Erweiterung Ihres Registers.",
-          focus: "Akademischer Wortschatz, komplexe Ausdrücke & kontextueller Gebrauch",
-          activities: [
-            "Lesen & Hören: Nachrichtenartikel, TED-Vorträge, akademische Texte",
-            "Wortschatz-Aufbau: Akademische Wortliste, Wortfamilien",
-            "Übungsstrategien: Spaced Repetition Systeme, Wortschatz-Tagebücher",
-            "Produktionspraxis: Essays schreiben, Diskussionen, Präsentationen"
-          ],
-          tip: "Qualität vor Quantität – lernen Sie weniger Wörter gründlicher."
-        }
-      },
-      "Solid B1": {
-        short: "Ausgezeichneter Fortschritt! Konzentrieren Sie sich auf akademischen Wortschatz und komplexe Ausdrücke.",
-        detailed: {
-          title: "Obere Mittelstufe – Fortgeschrittener Wortschatz",
-          description: "Sie haben eine solide Grundlage. Konzentrieren Sie sich auf die Erweiterung Ihres Registers.",
-          focus: "Akademischer Wortschatz, komplexe Ausdrücke & kontextueller Gebrauch",
-          activities: [
-            "Lesen & Hören: Nachrichtenartikel, TED-Vorträge, akademische Texte",
-            "Wortschatz-Aufbau: Akademische Wortliste, Wortfamilien",
-            "Übungsstrategien: Spaced Repetition Systeme, Wortschatz-Tagebücher",
-            "Produktionspraxis: Essays schreiben, Diskussionen, Präsentationen"
-          ],
-          tip: "Qualität vor Quantität – lernen Sie weniger Wörter gründlicher."
-        }
-      },
-      "Likely B2": {
-        short: "Ausgezeichneter Fortschritt! Konzentrieren Sie sich auf akademischen Wortschatz und komplexe Ausdrücke.",
-        detailed: {
-          title: "Obere Mittelstufe – Fortgeschrittener Wortschatz",
-          description: "Sie haben eine solide Grundlage. Konzentrieren Sie sich auf die Erweiterung Ihres Registers.",
-          focus: "Akademischer Wortschatz, komplexe Ausdrücke & kontextueller Gebrauch",
-          activities: [
-            "Lesen & Hören: Nachrichtenartikel, TED-Vorträge, akademische Texte",
-            "Wortschatz-Aufbau: Akademische Wortliste, Wortfamilien",
-            "Übungsstrategien: Spaced Repetition Systeme, Wortschatz-Tagebücher",
-            "Produktionspraxis: Essays schreiben, Diskussionen, Präsentationen"
-          ],
-          tip: "Qualität vor Quantität – lernen Sie weniger Wörter gründlicher."
+          tip: "Quality over quantity – learn fewer German words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Ausgezeichneter Fortschritt! Konzentrieren Sie sich auf akademischen Wortschatz und komplexe Ausdrücke.",
+        short: "Excellent progress! Focus on academic German vocabulary and complex expressions.",
         detailed: {
-          title: "Obere Mittelstufe – Fortgeschrittener Wortschatz",
-          description: "Sie haben eine solide Grundlage. Konzentrieren Sie sich auf die Erweiterung Ihres Registers.",
-          focus: "Akademischer Wortschatz, komplexe Ausdrücke & kontextueller Gebrauch",
+          title: "Upper Intermediate Level – Advanced German Vocabulary",
+          description: "You have a solid German foundation. Focus on expanding your register and range.",
+          focus: "Academic German vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lesen & Hören: Nachrichtenartikel, TED-Vorträge, akademische Texte",
-            "Wortschatz-Aufbau: Akademische Wortliste, Wortfamilien",
-            "Übungsstrategien: Spaced Repetition Systeme, Wortschatz-Tagebücher",
-            "Produktionspraxis: Essays schreiben, Diskussionen, Präsentationen"
+            "Reading & Listening: German news articles, TED talks, academic German texts",
+            "Vocabulary building: Academic German word lists, German word families",
+            "Practice strategies: Spaced repetition systems, German vocabulary journals",
+            "Production practice: Writing German essays, discussions, German presentations"
           ],
-          tip: "Qualität vor Quantität – lernen Sie weniger Wörter gründlicher."
+          tip: "Quality over quantity – learn fewer German words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Ausgezeichnet! Ihr Wortschatz ist auf fortgeschrittenem Niveau. Konzentrieren Sie sich auf Fachterminologie.",
+      "Approaching C1": {
+        short: "Outstanding! Your German vocabulary is at an advanced level. Focus on specialized German terminology.",
         detailed: {
-          title: "Fortgeschrittenes Niveau – Ihre Deutschkenntnisse verfeinern",
-          description: "Ihr Wortschatz ist auf fortgeschrittenem Niveau. Konzentrieren Sie sich auf muttersprachliche Flüssigkeit.",
-          focus: "Fachwortschatz, nuancierte Ausdrücke & akademische Präzision",
+          title: "Advanced Level – Refining Your German Mastery",
+          description: "Your German vocabulary is at an advanced level. Focus on native-like fluency in German.",
+          focus: "Specialized German vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lesen: Akademische Zeitschriften, literarische Werke, Fachpublikationen",
-            "Hören: Akademische Vorträge, Konferenzen, Dokumentarfilme, Nachrichtenanalysen",
-            "Wortschatz-Erweiterung: Kollokationen, idiomatische Ausdrücke, akademische Terminologie",
-            "Praxis: Debatten, Forschungsarbeiten schreiben, Präsentationen zu komplexen Themen"
+            "Reading: German academic journals, German literature, professional German publications",
+            "Listening: German academic conferences, German documentaries, German current affairs analysis",
+            "Vocabulary expansion: German collocations, German idioms, German academic terminology",
+            "Practice: German debates, writing German articles, presentations on complex topics in German"
           ],
-          tip: "Setzen Sie sich spezifische Ziele wie das Bestehen fortgeschrittener Sprachprüfungen."
+          tip: "Set specific German goals like passing advanced German proficiency tests."
         }
       },
       "Solid C1": {
-        short: "Ausgezeichnet! Ihr Wortschatz ist auf fortgeschrittenem Niveau. Konzentrieren Sie sich auf Fachterminologie.",
+        short: "Excellent! Your German vocabulary is at an advanced level. Focus on specialized German terminology.",
         detailed: {
-          title: "Fortgeschrittenes Niveau – Ihre Deutschkenntnisse verfeinern",
-          description: "Ihr Wortschatz ist auf fortgeschrittenem Niveau. Konzentrieren Sie sich auf muttersprachliche Flüssigkeit.",
-          focus: "Fachwortschatz, nuancierte Ausdrücke & akademische Präzision",
+          title: "Advanced Level – Refining Your German Mastery",
+          description: "Your German vocabulary is at an advanced level. Focus on native-like fluency in German.",
+          focus: "Specialized German vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lesen: Akademische Zeitschriften, literarische Werke, Fachpublikationen",
-            "Hören: Akademische Vorträge, Konferenzen, Dokumentarfilme, Nachrichtenanalysen",
-            "Wortschatz-Erweiterung: Kollokationen, idiomatische Ausdrücke, akademische Terminologie",
-            "Praxis: Debatten, Forschungsarbeiten schreiben, Präsentationen zu komplexen Themen"
+            "Reading: German academic journals, German literature, professional German publications",
+            "Listening: German academic conferences, German documentaries, German current affairs analysis",
+            "Vocabulary expansion: German collocations, German idioms, German academic terminology",
+            "Practice: German debates, writing German articles, presentations on complex topics in German"
           ],
-          tip: "Setzen Sie sich spezifische Ziele wie das Bestehen fortgeschrittener Sprachprüfungen."
+          tip: "Set specific German goals like passing advanced German proficiency tests."
         }
       }
     }
@@ -590,9 +438,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Chinese (Mandarin)",
     nativeName: "中文",
     flag: "🇨🇳",
-    title: "中文词汇量测试",
-    description: "测试您的中文水平从B1到C1",
-    welcomeText: "欢迎参加您的中文词汇量测试！",
+    title: "Chinese Vocabulary Size Test",
+    description: "Test your Chinese language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Chinese Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -602,96 +450,66 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "专注于学习最常见的词汇和基本沟通。",
+        short: "Focus on learning the most frequent Chinese words and basic communication skills.",
         detailed: {
-          title: "初级水平 – 建立基础",
-          description: "您正在建立中文词汇基础。专注于最常见的词汇。",
-          focus: "基本词汇 & 基础沟通",
+          title: "Elementary Level – Building Your Chinese Foundation",
+          description: "You're building your Chinese vocabulary foundation. Focus on the most common Chinese words.",
+          focus: "Essential Chinese vocabulary & basic communication",
           activities: [
-            "优先词汇：最常见的1,000-2,000个中文词汇",
-            "学习材料：初学者教材，语言学习应用",
-            "练习方法：使用图片和视觉联想",
-            "沟通练习：关于熟悉话题的基本对话"
+            "Priority vocabulary: The 1,000-2,000 most frequent Chinese words",
+            "Learning materials: Beginner Chinese textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Chinese characters",
+            "Communication practice: Basic conversations about familiar topics in Chinese"
           ],
-          tip: "不要担心错误 – 专注于表达您的想法。"
+          tip: "Don't worry about mistakes – focus on communicating your ideas in Chinese."
         }
       },
       "Approaching B1": {
-        short: "专注于扩展您的基础词汇。",
+        short: "Focus on expanding your core Chinese vocabulary and improving fluency.",
         detailed: {
-          title: "中级水平 – 扩展词汇",
-          description: "您可以处理日常情况。专注于扩展词汇。",
-          focus: "基础词汇扩展 & 流畅度",
+          title: "Intermediate Level – Expanding Your Chinese Vocabulary",
+          description: "You can handle everyday Chinese situations. Focus on expanding your vocabulary range.",
+          focus: "Core Chinese vocabulary expansion & fluency",
           activities: [
-            "输入来源：分级阅读器，中文教育播客",
-            "词汇优先级：最常见的3,000个词汇，习语",
-            "学习策略：记忆卡，词汇笔记本",
-            "练习活动：对话小组，日记写作"
+            "Input sources: Chinese graded readers, educational Chinese podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Chinese words, Chinese idioms",
+            "Learning strategies: Flashcards for Chinese characters, vocabulary notebooks",
+            "Practice activities: Chinese conversation groups, journaling in Chinese"
           ],
-          tip: "规律性至关重要 – 每天学习一点。"
+          tip: "Consistency is essential – study Chinese a little each day."
         }
       },
-      "Likely B1": {
-        short: "优秀进步！专注于学术词汇和复杂表达。",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic vocabulary and complex expressions.",
         detailed: {
-          title: "中高级水平 – 高级词汇",
+          title: "Upper Intermediate Level – Advanced Vocabulary",
           description: "您有扎实的基础。专注于扩展您的表达范围。",
-          focus: "学术词汇，复杂表达 & 上下文使用",
+          focus: "Academic vocabulary, complex expressions & contextual usage",
           activities: [
             "阅读和听力：新闻文章，TED演讲，学术文本",
             "词汇构建：学术词表，词族",
             "练习策略：间隔重复系统，词汇日记",
             "输出练习：写作论文，参与讨论，演讲"
           ],
-          tip: "质量胜于数量 – 深入学习较少的词汇。"
-        }
-      },
-      "Solid B1": {
-        short: "优秀进步！专注于学术词汇和复杂表达。",
-        detailed: {
-          title: "中高级水平 – 高级词汇",
-          description: "您有扎实的基础。专注于扩展您的表达范围。",
-          focus: "学术词汇，复杂表达 & 上下文使用",
-          activities: [
-            "阅读和听力：新闻文章，TED演讲，学术文本",
-            "词汇构建：学术词表，词族",
-            "练习策略：间隔重复系统，词汇日记",
-            "输出练习：写作论文，参与讨论，演讲"
-          ],
-          tip: "质量胜于数量 – 深入学习较少的词汇。"
-        }
-      },
-      "Likely B2": {
-        short: "优秀进步！专注于学术词汇和复杂表达。",
-        detailed: {
-          title: "中高级水平 – 高级词汇",
-          description: "您有扎实的基础。专注于扩展您的表达范围。",
-          focus: "学术词汇，复杂表达 & 上下文使用",
-          activities: [
-            "阅读和听力：新闻文章，TED演讲，学术文本",
-            "词汇构建：学术词表，词族",
-            "练习策略：间隔重复系统，词汇日记",
-            "输出练习：写作论文，参与讨论，演讲"
-          ],
-          tip: "质量胜于数量 – 深入学习较少的词汇。"
+          tip: "Quality over quantity – learn fewer words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "优秀进步！专注于学术词汇和复杂表达。",
+        short: "Excellent progress! Focus on academic vocabulary and complex expressions.",
         detailed: {
-          title: "中高级水平 – 高级词汇",
+          title: "Upper Intermediate Level – Advanced Vocabulary",
           description: "您有扎实的基础。专注于扩展您的表达范围。",
-          focus: "学术词汇，复杂表达 & 上下文使用",
+          focus: "Academic vocabulary, complex expressions & contextual usage",
           activities: [
             "阅读和听力：新闻文章，TED演讲，学术文本",
             "词汇构建：学术词表，词族",
             "练习策略：间隔重复系统，词汇日记",
             "输出练习：写作论文，参与讨论，演讲"
           ],
-          tip: "质量胜于数量 – 深入学习较少的词汇。"
+          tip: "Quality over quantity – learn fewer words but learn them deeply."
         }
       },
-      "Likely C1": {
+      "Approaching C1": {
         short: "优秀！您的词汇处于高级水平。专注于专业术语。",
         detailed: {
           title: "高级水平 – 精炼您的中文掌握",
@@ -730,9 +548,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Italian",
     nativeName: "Italiano",
     flag: "🇮🇹",
-    title: "Test di Vocabolario Italiano",
-    description: "Testa la tua competenza in italiano da B1 a C1",
-    welcomeText: "Benvenuto al tuo test di vocabolario italiano!",
+    title: "Italian Vocabulary Size Test",
+    description: "Test your Italian language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Italian Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -742,123 +560,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Concentrati sulle parole più frequenti e sulla comunicazione di base.",
+        short: "Focus on learning the most frequent Italian words and basic communication skills.",
         detailed: {
-          title: "Livello Elementare – Costruire le tue Basi",
-          description: "Stai costruendo le basi del tuo vocabolario italiano. Concentrati sulle parole più comuni.",
-          focus: "Vocabolario essenziale & comunicazione di base",
+          title: "Elementary Level – Building Your Italian Foundation",
+          description: "You're building your Italian vocabulary foundation. Focus on the most common Italian words.",
+          focus: "Essential Italian vocabulary & basic communication",
           activities: [
-            "Vocabolario prioritario: Le 1.000-2.000 parole italiane più frequenti",
-            "Materiali di apprendimento: Libri per principianti, app di apprendimento linguistico",
-            "Metodi di pratica: Usa immagini e associazioni visive",
-            "Pratica di comunicazione: Conversazioni basilari su argomenti familiari"
+            "Priority vocabulary: The 1,000-2,000 most frequent Italian words",
+            "Learning materials: Beginner Italian textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Italian words",
+            "Communication practice: Basic Italian conversations on familiar topics"
           ],
-          tip: "Non preoccuparti degli errori – concentrati sulla comunicazione delle tue idee."
+          tip: "Don't worry about errors – focus on communicating your ideas in Italian."
         }
       },
       "Approaching B1": {
-        short: "Concentrati sull'espansione del tuo vocabolario di base.",
+        short: "Focus on expanding your core Italian vocabulary and improving fluency.",
         detailed: {
-          title: "Livello Intermedio – Espandere il tuo Vocabolario",
-          description: "Puoi gestire situazioni quotidiane. Concentrati sull'espansione del vocabolario.",
-          focus: "Espansione del vocabolario di base & fluidità",
+          title: "Intermediate Level – Expanding Your Italian Vocabulary",
+          description: "You can handle everyday Italian situations. Focus on expanding your vocabulary range.",
+          focus: "Core Italian vocabulary expansion & fluency",
           activities: [
-            "Fonti di input: Lettori graduati, podcast educativi in italiano",
-            "Priorità di vocabolario: Le 3.000 parole più frequenti, espressioni idiomatiche",
-            "Strategie di apprendimento: Schede di memoria, quaderni di vocabolario",
-            "Attività di pratica: Gruppi di conversazione, diari personali"
+            "Input sources: Italian graded readers, educational Italian podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Italian words, Italian idiomatic expressions",
+            "Learning strategies: Flashcards for Italian words, vocabulary notebooks",
+            "Practice activities: Italian conversation groups, journaling in Italian"
           ],
-          tip: "La regolarità è essenziale – studia un po' ogni giorno."
+          tip: "Consistency is essential – study Italian a little each day."
         }
       },
-      "Likely B1": {
-        short: "Ottimo progresso! Concentrati sul vocabolario accademico e espressioni complesse.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Italian vocabulary and complex expressions.",
         detailed: {
-          title: "Livello Intermedio Superiore – Vocabolario Avanzato",
-          description: "Hai una base solida. Concentrati sull'espansione del tuo registro.",
-          focus: "Vocabolario accademico, espressioni complesse & uso contestuale",
+          title: "Upper Intermediate Level – Advanced Italian Vocabulary",
+          description: "You have a solid Italian foundation. Focus on expanding your register and range.",
+          focus: "Academic Italian vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lettura e Ascolto: Articoli di notizie, TED talks, testi accademici",
-            "Costruzione del vocabolario: Lista di parole accademiche, famiglie di parole",
-            "Strategie di pratica: Sistemi di ripetizione spaziata, diari di vocabolario",
-            "Pratica di produzione: Scrivere saggi, discussioni, presentazioni"
+            "Reading & Listening: Italian news articles, TED talks, academic Italian texts",
+            "Vocabulary building: Academic Italian word lists, Italian word families",
+            "Practice strategies: Spaced repetition systems, Italian vocabulary journals",
+            "Production practice: Writing Italian essays, discussions, Italian presentations"
           ],
-          tip: "Qualità piuttosto che quantità – impara profondamente meno parole."
-        }
-      },
-      "Solid B1": {
-        short: "Ottimo progresso! Concentrati sul vocabolario accademico e espressioni complesse.",
-        detailed: {
-          title: "Livello Intermedio Superiore – Vocabolario Avanzato",
-          description: "Hai una base solida. Concentrati sull'espansione del tuo registro.",
-          focus: "Vocabolario accademico, espressioni complesse & uso contestuale",
-          activities: [
-            "Lettura e Ascolto: Articoli di notizie, TED talks, testi accademici",
-            "Costruzione del vocabolario: Lista di parole accademiche, famiglie di parole",
-            "Strategie di pratica: Sistemi di ripetizione spaziata, diari di vocabolario",
-            "Pratica di produzione: Scrivere saggi, discussioni, presentazioni"
-          ],
-          tip: "Qualità piuttosto che quantità – impara profondamente meno parole."
-        }
-      },
-      "Likely B2": {
-        short: "Ottimo progresso! Concentrati sul vocabolario accademico e espressioni complesse.",
-        detailed: {
-          title: "Livello Intermedio Superiore – Vocabolario Avanzato",
-          description: "Hai una base solida. Concentrati sull'espansione del tuo registro.",
-          focus: "Vocabolario accademico, espressioni complesse & uso contestuale",
-          activities: [
-            "Lettura e Ascolto: Articoli di notizie, TED talks, testi accademici",
-            "Costruzione del vocabolario: Lista di parole accademiche, famiglie di parole",
-            "Strategie di pratica: Sistemi di ripetizione spaziata, diari di vocabolario",
-            "Pratica di produzione: Scrivere saggi, discussioni, presentazioni"
-          ],
-          tip: "Qualità piuttosto che quantità – impara profondamente meno parole."
+          tip: "Quality over quantity – learn fewer Italian words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Ottimo progresso! Concentrati sul vocabolario accademico e espressioni complesse.",
+        short: "Excellent progress! Focus on academic Italian vocabulary and complex expressions.",
         detailed: {
-          title: "Livello Intermedio Superiore – Vocabolario Avanzato",
-          description: "Hai una base solida. Concentrati sull'espansione del tuo registro.",
-          focus: "Vocabolario accademico, espressioni complesse & uso contestuale",
+          title: "Upper Intermediate Level – Advanced Italian Vocabulary",
+          description: "You have a solid Italian foundation. Focus on expanding your register and range.",
+          focus: "Academic Italian vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lettura e Ascolto: Articoli di notizie, TED talks, testi accademici",
-            "Costruzione del vocabolario: Lista di parole accademiche, famiglie di parole",
-            "Strategie di pratica: Sistemi di ripetizione spaziata, diari di vocabolario",
-            "Pratica di produzione: Scrivere saggi, discussioni, presentazioni"
+            "Reading & Listening: Italian news articles, TED talks, academic Italian texts",
+            "Vocabulary building: Academic Italian word lists, Italian word families",
+            "Practice strategies: Spaced repetition systems, Italian vocabulary journals",
+            "Production practice: Writing Italian essays, discussions, Italian presentations"
           ],
-          tip: "Qualità piuttosto che quantità – impara profondamente meno parole."
+          tip: "Quality over quantity – learn fewer Italian words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Eccellente! Il tuo vocabolario è a livello avanzato. Concentrati sulla terminologia specializzata.",
+      "Approaching C1": {
+        short: "Excellent! Your Italian vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Livello Avanzato – Raffinare la tua Padronanza dell'Italiano",
-          description: "Il tuo vocabolario è a livello avanzato. Concentrati sulla fluidità simile alla lingua madre.",
-          focus: "Vocabolario specializzato, espressioni sfumate & precisione accademica",
+          title: "Advanced Level – Refining Your Italian Mastery",
+          description: "Your Italian vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Italian vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lettura: Riviste accademiche, opere letterarie, pubblicazioni professionali",
-            "Ascolto: Conferenze accademiche, documentari, analisi di notizie",
-            "Espansione del vocabolario: Collocazioni, espressioni idiomatiche, terminologia accademica",
-            "Pratica: Dibattiti, scrivere articoli di ricerca, presentazioni su argomenti complessi"
+            "Reading: Academic Italian journals, literary works, professional publications",
+            "Listening: Academic lectures, documentaries, Italian news analysis",
+            "Vocabulary expansion: Italian collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Italian debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Fissati obiettivi specifici come superare esami di competenza avanzata."
+          tip: "Set specific goals such as passing advanced Italian proficiency exams."
         }
       },
       "Solid C1": {
-        short: "Eccellente! Il tuo vocabolario è a livello avanzato. Concentrati sulla terminologia specializzata.",
+        short: "Excellent! Your Italian vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Livello Avanzato – Raffinare la tua Padronanza dell'Italiano",
-          description: "Il tuo vocabolario è a livello avanzato. Concentrati sulla fluidità simile alla lingua madre.",
-          focus: "Vocabolario specializzato, espressioni sfumate & precisione accademica",
+          title: "Advanced Level – Refining Your Italian Mastery",
+          description: "Your Italian vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Italian vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lettura: Riviste accademiche, opere letterarie, pubblicazioni professionali",
-            "Ascolto: Conferenze accademiche, documentari, analisi di notizie",
-            "Espansione del vocabolario: Collocazioni, espressioni idiomatiche, terminologia accademica",
-            "Pratica: Dibattiti, scrivere articoli di ricerca, presentazioni su argomenti complessi"
+            "Reading: Academic Italian journals, literary works, professional publications",
+            "Listening: Academic lectures, documentaries, Italian news analysis",
+            "Vocabulary expansion: Italian collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Italian debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Fissati obiettivi specifici come superare esami di competenza avanzata."
+          tip: "Set specific goals such as passing advanced Italian proficiency exams."
         }
       }
     }
@@ -870,9 +658,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Japanese",
     nativeName: "日本語",
     flag: "🇯🇵",
-    title: "日本語ボキャブラリーテスト",
-    description: "B1からC1までの日本語能力をテスト",
-    welcomeText: "日本語ボキャブラリーテストへようこそ！",
+    title: "Japanese Vocabulary Size Test",
+    description: "Test your Japanese language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Japanese Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -882,123 +670,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "最も頻繁な単語と基本的なコミュニケーションに集中してください。",
+        short: "Focus on learning the most frequent Japanese words and basic communication skills.",
         detailed: {
-          title: "初級レベル – 基礎を築く",
-          description: "日本語の語彙の基礎を築いています。最頻出の単語に集中してください。",
-          focus: "必須語彙 & 基本コミュニケーション",
+          title: "Elementary Level – Building Your Japanese Foundation",
+          description: "You're building your Japanese vocabulary foundation. Focus on the most common Japanese words.",
+          focus: "Essential Japanese vocabulary & basic communication",
           activities: [
-            "優先語彙：最も頻繁な1,000-2,000の日本語単語",
-            "学習教材：初心者向け教科書、言語学習アプリ",
-            "練習方法：画像と視覚的連想を使用",
-            "コミュニケーション練習：馴染みのあるトピックについての基本会話"
+            "Priority vocabulary: The 1,000-2,000 most frequent Japanese words",
+            "Learning materials: Beginner Japanese textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Japanese words",
+            "Communication practice: Basic Japanese conversations on familiar topics"
           ],
-          tip: "間違いを心配しないでください – あなたの考えを伝えることに集中してください。"
+          tip: "Don't worry about errors – focus on communicating your ideas in Japanese."
         }
       },
       "Approaching B1": {
-        short: "基礎語彙の拡張に集中してください。",
+        short: "Focus on expanding your core Japanese vocabulary and improving fluency.",
         detailed: {
-          title: "中級レベル – 語彙を拡張する",
-          description: "日常的な状況を扱えます。語彙の拡張に集中してください。",
-          focus: "基礎語彙の拡張 & 流暢さ",
+          title: "Intermediate Level – Expanding Your Japanese Vocabulary",
+          description: "You can handle everyday Japanese situations. Focus on expanding your vocabulary range.",
+          focus: "Core Japanese vocabulary expansion & fluency",
           activities: [
-            "インプットソース：段階的リーダー、日本語教育ポッドキャスト",
-            "語彙優先事項：最も頻繁な3,000語、慣用表現",
-            "学習戦略：記憶カード、語彙ノート",
-            "練習活動：会話グループ、日記"
+            "Input sources: Japanese graded readers, educational Japanese podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Japanese words, Japanese idiomatic expressions",
+            "Learning strategies: Flashcards for Japanese words, vocabulary notebooks",
+            "Practice activities: Japanese conversation groups, journaling in Japanese"
           ],
-          tip: "規則性が重要 – 毎日少しずつ学習してください。"
+          tip: "Consistency is essential – study Japanese a little each day."
         }
       },
-      "Likely B1": {
-        short: "優れた進歩！ 学術語彙と複雑な表現に集中してください。",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Japanese vocabulary and complex expressions.",
         detailed: {
-          title: "中上級レベル – 上級語彙",
-          description: "しっかりした基礎があります。表現範囲の拡張に集中してください。",
-          focus: "学術語彙、複雑な表現 & 文脈的用法",
+          title: "Upper Intermediate Level – Advanced Japanese Vocabulary",
+          description: "You have a solid Japanese foundation. Focus on expanding your register and range.",
+          focus: "Academic Japanese vocabulary, complex expressions & contextual usage",
           activities: [
-            "読解・聴解：ニュース記事、TEDトーク、学術テキスト",
-            "語彙構築：学術語彙リスト、単語族",
-            "練習戦略：間隔反復システム、語彙日記",
-            "産出練習：エッセイを書く、議論に参加、プレゼンテーション"
+            "Reading & Listening: Japanese news articles, TED talks, academic Japanese texts",
+            "Vocabulary building: Academic Japanese word lists, Japanese word families",
+            "Practice strategies: Spaced repetition systems, Japanese vocabulary journals",
+            "Production practice: Writing Japanese essays, discussions, Japanese presentations"
           ],
-          tip: "量より質 – 少ない単語を深く学習してください。"
-        }
-      },
-      "Solid B1": {
-        short: "優れた進歩！ 学術語彙と複雑な表現に集中してください。",
-        detailed: {
-          title: "中上級レベル – 上級語彙",
-          description: "しっかりした基礎があります。表現範囲の拡張に集中してください。",
-          focus: "学術語彙、複雑な表現 & 文脈的用法",
-          activities: [
-            "読解・聴解：ニュース記事、TEDトーク、学術テキスト",
-            "語彙構築：学術語彙リスト、単語族",
-            "練習戦略：間隔反復システム、語彙日記",
-            "産出練習：エッセイを書く、議論に参加、プレゼンテーション"
-          ],
-          tip: "量より質 – 少ない単語を深く学習してください。"
-        }
-      },
-      "Likely B2": {
-        short: "優れた進歩！ 学術語彙と複雑な表現に集中してください。",
-        detailed: {
-          title: "中上級レベル – 上級語彙",
-          description: "しっかりした基礎があります。表現範囲の拡張に集中してください。",
-          focus: "学術語彙、複雑な表現 & 文脈的用法",
-          activities: [
-            "読解・聴解：ニュース記事、TEDトーク、学術テキスト",
-            "語彙構築：学術語彙リスト、単語族",
-            "練習戦略：間隔反復システム、語彙日記",
-            "産出練習：エッセイを書く、議論に参加、プレゼンテーション"
-          ],
-          tip: "量より質 – 少ない単語を深く学習してください。"
+          tip: "Quality over quantity – learn fewer Japanese words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "優れた進歩！ 学術語彙と複雑な表現に集中してください。",
+        short: "Excellent progress! Focus on academic Japanese vocabulary and complex expressions.",
         detailed: {
-          title: "中上級レベル – 上級語彙",
-          description: "しっかりした基礎があります。表現範囲の拡張に集中してください。",
-          focus: "学術語彙、複雑な表現 & 文脈的用法",
+          title: "Upper Intermediate Level – Advanced Japanese Vocabulary",
+          description: "You have a solid Japanese foundation. Focus on expanding your register and range.",
+          focus: "Academic Japanese vocabulary, complex expressions & contextual usage",
           activities: [
-            "読解・聴解：ニュース記事、TEDトーク、学術テキスト",
-            "語彙構築：学術語彙リスト、単語族",
-            "練習戦略：間隔反復システム、語彙日記",
-            "産出練習：エッセイを書く、議論に参加、プレゼンテーション"
+            "Reading & Listening: Japanese news articles, TED talks, academic Japanese texts",
+            "Vocabulary building: Academic Japanese word lists, Japanese word families",
+            "Practice strategies: Spaced repetition systems, Japanese vocabulary journals",
+            "Production practice: Writing Japanese essays, discussions, Japanese presentations"
           ],
-          tip: "量より質 – 少ない単語を深く学習してください。"
+          tip: "Quality over quantity – learn fewer Japanese words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "素晴らしい！ あなたの語彙は上級レベルです。専門用語に集中してください。",
+      "Approaching C1": {
+        short: "Excellent! Your Japanese vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "上級レベル – 日本語の習得を洗練する",
-          description: "あなたの語彙は上級レベルです。母語に近い流暢さに集中してください。",
-          focus: "専門語彙、微妙な表現 & 学術的正確性",
+          title: "Advanced Level – Refining Your Japanese Mastery",
+          description: "Your Japanese vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Japanese vocabulary, nuanced expressions & academic precision",
           activities: [
-            "読解：学術雑誌、文学作品、専門出版物",
-            "聴解：学術講演、専門会議、ドキュメンタリー、ニュース分析",
-            "語彙拡張：コロケーション、慣用表現、成句、学術用語",
-            "練習：討論に参加、研究論文を書く、複雑なトピックについてのプレゼンテーション"
+            "Reading: Academic Japanese journals, literary works, professional publications",
+            "Listening: Academic lectures, professional conferences, documentaries, Japanese news analysis",
+            "Vocabulary expansion: Japanese collocations, idiomatic expressions, set phrases, academic terminology",
+            "Practice: Engaging in Japanese debates, writing research papers, presentations on complex topics"
           ],
-          tip: "上級日本語能力試験に合格するなどの具体的な目標を設定してください。"
+          tip: "Set specific goals such as passing advanced Japanese proficiency exams."
         }
       },
       "Solid C1": {
-        short: "素晴らしい！ あなたの語彙は上級レベルです。専門用語に集中してください。",
+        short: "Excellent! Your Japanese vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "上級レベル – 日本語の習得を洗練する",
-          description: "あなたの語彙は上級レベルです。母語に近い流暢さに集中してください。",
-          focus: "専門語彙、微妙な表現 & 学術的正確性",
+          title: "Advanced Level – Refining Your Japanese Mastery",
+          description: "Your Japanese vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Japanese vocabulary, nuanced expressions & academic precision",
           activities: [
-            "読解：学術雑誌、文学作品、専門出版物",
-            "聴解：学術講演、専門会議、ドキュメンタリー、ニュース分析",
-            "語彙拡張：コロケーション、慣用表現、成句、学術用語",
-            "練習：討論に参加、研究論文を書く、複雑なトピックについてのプレゼンテーション"
+            "Reading: Academic Japanese journals, literary works, professional publications",
+            "Listening: Academic lectures, professional conferences, documentaries, Japanese news analysis",
+            "Vocabulary expansion: Japanese collocations, idiomatic expressions, set phrases, academic terminology",
+            "Practice: Engaging in Japanese debates, writing research papers, presentations on complex topics"
           ],
-          tip: "上級日本語能力試験に合格するなどの具体的な目標を設定してください。"
+          tip: "Set specific goals such as passing advanced Japanese proficiency exams."
         }
       }
     }
@@ -1009,9 +767,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Portuguese",
     nativeName: "Português",
     flag: "🇵🇹",
-    title: "Teste de Vocabulário Português",
-    description: "Teste sua competência em português do B1 ao C1",
-    welcomeText: "Bem-vindo ao seu teste de vocabulário português!",
+    title: "Portuguese Vocabulary Size Test",
+    description: "Test your Portuguese language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Portuguese Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -1021,123 +779,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Concentre-se nas palavras mais frequentes e na comunicação básica.",
+        short: "Focus on learning the most frequent Portuguese words and basic communication skills.",
         detailed: {
-          title: "Nível Elementar – Construindo suas Bases",
-          description: "Você está construindo as bases do seu vocabulário português. Concentre-se nas palavras mais comuns.",
-          focus: "Vocabulário essencial & comunicação básica",
+          title: "Elementary Level – Building Your Portuguese Foundation",
+          description: "You're building your Portuguese vocabulary foundation. Focus on the most common Portuguese words.",
+          focus: "Essential Portuguese vocabulary & basic communication",
           activities: [
-            "Vocabulário prioritário: As 1.000-2.000 palavras portuguesas mais frequentes",
-            "Materiais de aprendizagem: Livros para iniciantes, aplicativos de aprendizagem de idiomas",
-            "Métodos de prática: Use imagens e associações visuais",
-            "Prática de comunicação: Conversas básicas sobre tópicos familiares"
+            "Priority vocabulary: The 1,000-2,000 most frequent Portuguese words",
+            "Learning materials: Beginner Portuguese textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Portuguese words",
+            "Communication practice: Basic Portuguese conversations on familiar topics"
           ],
-          tip: "Não se preocupe com erros – concentre-se em comunicar suas ideias."
+          tip: "Don't worry about errors – focus on communicating your ideas in Portuguese."
         }
       },
       "Approaching B1": {
-        short: "Concentre-se na expansão do seu vocabulário básico.",
+        short: "Focus on expanding your core Portuguese vocabulary and improving fluency.",
         detailed: {
-          title: "Nível Intermediário – Expandindo seu Vocabulário",
-          description: "Você pode lidar com situações cotidianas. Concentre-se na expansão do vocabulário.",
-          focus: "Expansão do vocabulário básico & fluência",
+          title: "Intermediate Level – Expanding Your Portuguese Vocabulary",
+          description: "You can handle everyday Portuguese situations. Focus on expanding your vocabulary range.",
+          focus: "Core Portuguese vocabulary expansion & fluency",
           activities: [
-            "Fontes de entrada: Leitores graduados, podcasts educacionais em português",
-            "Prioridades de vocabulário: As 3.000 palavras mais frequentes, expressões idiomáticas",
-            "Estratégias de aprendizagem: Cartões de memória, cadernos de vocabulário",
-            "Atividades de prática: Grupos de conversa, diários pessoais"
+            "Input sources: Portuguese graded readers, educational Portuguese podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Portuguese words, Portuguese idiomatic expressions",
+            "Learning strategies: Flashcards for Portuguese words, vocabulary notebooks",
+            "Practice activities: Portuguese conversation groups, journaling in Portuguese"
           ],
-          tip: "A regularidade é essencial – estude um pouco todos os dias."
+          tip: "Consistency is essential – study Portuguese a little each day."
         }
       },
-      "Likely B1": {
-        short: "Excelente progresso! Concentre-se no vocabulário acadêmico e expressões complexas.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Portuguese vocabulary and complex expressions.",
         detailed: {
-          title: "Nível Intermediário Superior – Vocabulário Avançado",
-          description: "Você tem uma base sólida. Concentre-se na expansão do seu registro.",
-          focus: "Vocabulário acadêmico, expressões complexas & uso contextual",
+          title: "Upper Intermediate Level – Advanced Portuguese Vocabulary",
+          description: "You have a solid Portuguese foundation. Focus on expanding your register and range.",
+          focus: "Academic Portuguese vocabulary, complex expressions & contextual usage",
           activities: [
-            "Leitura e Escuta: Artigos de notícias, TED talks, textos acadêmicos",
-            "Construção de vocabulário: Lista de palavras acadêmicas, famílias de palavras",
-            "Estratégias de prática: Sistemas de repetição espaçada, diários de vocabulário",
-            "Prática de produção: Escrever ensaios, discussões, apresentações"
+            "Reading & Listening: Portuguese news articles, TED talks, academic Portuguese texts",
+            "Vocabulary building: Academic Portuguese word lists, Portuguese word families",
+            "Practice strategies: Spaced repetition systems, Portuguese vocabulary journals",
+            "Production practice: Writing Portuguese essays, discussions, Portuguese presentations"
           ],
-          tip: "Qualidade em vez de quantidade – aprenda menos palavras mais profundamente."
-        }
-      },
-      "Solid B1": {
-        short: "Excelente progresso! Concentre-se no vocabulário acadêmico e expressões complexas.",
-        detailed: {
-          title: "Nível Intermediário Superior – Vocabulário Avançado",
-          description: "Você tem uma base sólida. Concentre-se na expansão do seu registro.",
-          focus: "Vocabulário acadêmico, expressões complexas & uso contextual",
-          activities: [
-            "Leitura e Escuta: Artigos de notícias, TED talks, textos acadêmicos",
-            "Construção de vocabulário: Lista de palavras acadêmicas, famílias de palavras",
-            "Estratégias de prática: Sistemas de repetição espaçada, diários de vocabulário",
-            "Prática de produção: Escrever ensaios, discussões, apresentações"
-          ],
-          tip: "Qualidade em vez de quantidade – aprenda menos palavras mais profundamente."
-        }
-      },
-      "Likely B2": {
-        short: "Excelente progresso! Concentre-se no vocabulário acadêmico e expressões complexas.",
-        detailed: {
-          title: "Nível Intermediário Superior – Vocabulário Avançado",
-          description: "Você tem uma base sólida. Concentre-se na expansão do seu registro.",
-          focus: "Vocabulário acadêmico, expressões complexas & uso contextual",
-          activities: [
-            "Leitura e Escuta: Artigos de notícias, TED talks, textos acadêmicos",
-            "Construção de vocabulário: Lista de palavras acadêmicas, famílias de palavras",
-            "Estratégias de prática: Sistemas de repetição espaçada, diários de vocabulário",
-            "Prática de produção: Escrever ensaios, discussões, apresentações"
-          ],
-          tip: "Qualidade em vez de quantidade – aprenda menos palavras mais profundamente."
+          tip: "Quality over quantity – learn fewer Portuguese words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Excelente progresso! Concentre-se no vocabulário acadêmico e expressões complexas.",
+        short: "Excellent progress! Focus on academic Portuguese vocabulary and complex expressions.",
         detailed: {
-          title: "Nível Intermediário Superior – Vocabulário Avançado",
-          description: "Você tem uma base sólida. Concentre-se na expansão do seu registro.",
-          focus: "Vocabulário acadêmico, expressões complexas & uso contextual",
+          title: "Upper Intermediate Level – Advanced Portuguese Vocabulary",
+          description: "You have a solid Portuguese foundation. Focus on expanding your register and range.",
+          focus: "Academic Portuguese vocabulary, complex expressions & contextual usage",
           activities: [
-            "Leitura e Escuta: Artigos de notícias, TED talks, textos acadêmicos",
-            "Construção de vocabulário: Lista de palavras acadêmicas, famílias de palavras",
-            "Estratégias de prática: Sistemas de repetição espaçada, diários de vocabulário",
-            "Prática de produção: Escrever ensaios, discussões, apresentações"
+            "Reading & Listening: Portuguese news articles, TED talks, academic Portuguese texts",
+            "Vocabulary building: Academic Portuguese word lists, Portuguese word families",
+            "Practice strategies: Spaced repetition systems, Portuguese vocabulary journals",
+            "Production practice: Writing Portuguese essays, discussions, Portuguese presentations"
           ],
-          tip: "Qualidade em vez de quantidade – aprenda menos palavras mais profundamente."
+          tip: "Quality over quantity – learn fewer Portuguese words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Excelente! Seu vocabulário está em nível avançado. Concentre-se na terminologia especializada.",
+      "Approaching C1": {
+        short: "Excellent! Your Portuguese vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Nível Avançado – Refinando seu Domínio do Português",
-          description: "Seu vocabulário está em nível avançado. Concentre-se na fluência nativa.",
-          focus: "Vocabulário especializado, expressões matizadas & precisão acadêmica",
+          title: "Advanced Level – Refining Your Portuguese Mastery",
+          description: "Your Portuguese vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Portuguese vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Leitura: Revistas acadêmicas, obras literárias, publicações profissionais",
-            "Escuta: Conferências acadêmicas, documentários, análises de notícias",
-            "Expansão de vocabulário: Colocações, expressões idiomáticas, terminologia acadêmica",
-            "Prática: Debates, escrever artigos de pesquisa, apresentações sobre tópicos complexos"
+            "Reading: Academic Portuguese journals, literary works, professional publications",
+            "Listening: Academic lectures, documentaries, Portuguese news analysis",
+            "Vocabulary expansion: Portuguese collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Portuguese debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Defina objetivos específicos como passar em exames de competência avançada."
+          tip: "Set specific goals such as passing advanced Portuguese proficiency exams."
         }
       },
       "Solid C1": {
-        short: "Excelente! Seu vocabulário está em nível avançado. Concentre-se na terminologia especializada.",
+        short: "Excellent! Your Portuguese vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Nível Avançado – Refinando seu Domínio do Português",
-          description: "Seu vocabulário está em nível avançado. Concentre-se na fluência nativa.",
-          focus: "Vocabulário especializado, expressões matizadas & precisão acadêmica",
+          title: "Advanced Level – Refining Your Portuguese Mastery",
+          description: "Your Portuguese vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Portuguese vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Leitura: Revistas acadêmicas, obras literárias, publicações profissionais",
-            "Escuta: Conferências acadêmicas, documentários, análises de notícias",
-            "Expansão de vocabulário: Colocações, expressões idiomáticas, terminologia acadêmica",
-            "Prática: Debates, escrever artigos de pesquisa, apresentações sobre tópicos complexos"
+            "Reading: Academic Portuguese journals, literary works, professional publications",
+            "Listening: Academic lectures, documentaries, Portuguese news analysis",
+            "Vocabulary expansion: Portuguese collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Portuguese debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Defina objetivos específicos como passar em exames de competência avançada."
+          tip: "Set specific goals such as passing advanced Portuguese proficiency exams."
         }
       }
     }
@@ -1148,9 +876,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Russian",
     nativeName: "Русский",
     flag: "🇷🇺",
-    title: "Русский Тест Словарного Запаса",
-    description: "Проверьте свою компетентность в русском языке с B1 по C1",
-    welcomeText: "Добро пожаловать на ваш тест словарного запаса русского языка!",
+    title: "Russian Vocabulary Size Test",
+    description: "Test your Russian language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Russian Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -1160,123 +888,93 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Сосредоточьтесь на наиболее частых словах и базовом общении.",
+        short: "Focus on learning the most frequent Russian words and basic communication skills.",
         detailed: {
-          title: "Элементарный Уровень – Строим ваши Основы",
-          description: "Вы строите основы своего словарного запаса русского языка. Сосредоточьтесь на наиболее частых словах.",
-          focus: "Основной словарный запас & базовое общение",
+          title: "Elementary Level – Building Your Russian Foundation",
+          description: "You're building your Russian vocabulary foundation. Focus on the most common Russian words.",
+          focus: "Essential Russian vocabulary & basic communication",
           activities: [
-            "Приоритетный словарный запас: 1,000-2,000 наиболее частых русских слов",
-            "Материалы для обучения: Учебники для начинающих, приложения для изучения языков",
-            "Методы практики: Используйте изображения и визуальные ассоциации",
-            "Практика общения: Базовые разговоры на знакомые темы"
+            "Priority vocabulary: The 1,000-2,000 most frequent Russian words",
+            "Learning materials: Beginner Russian textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Russian words",
+            "Communication practice: Basic Russian conversations on familiar topics"
           ],
-          tip: "Не беспокойтесь об ошибках – сосредоточьтесь на выражении своих мыслей."
+          tip: "Don't worry about errors – focus on communicating your ideas in Russian."
         }
       },
       "Approaching B1": {
-        short: "Сосредоточьтесь на расширении вашего базового словарного запаса.",
+        short: "Focus on expanding your core Russian vocabulary and improving fluency.",
         detailed: {
-          title: "Средний Уровень – Расширяем ваш Словарный Запас",
-          description: "Вы можете справляться с повседневными ситуациями. Сосредоточьтесь на расширении словарного запаса.",
-          focus: "Расширение базового словарного запаса & беглость речи",
+          title: "Intermediate Level – Expanding Your Russian Vocabulary",
+          description: "You can handle everyday Russian situations. Focus on expanding your vocabulary range.",
+          focus: "Core Russian vocabulary expansion & fluency",
           activities: [
-            "Источники ввода: Градуированные читатели, образовательные подкасты на русском",
-            "Приоритеты словарного запаса: 3,000 наиболее частых слов, идиоматические выражения",
-            "Стратегии обучения: Карточки памяти, тетради словарного запаса",
-            "Практические занятия: Группы общения, личные дневники"
+            "Input sources: Russian graded readers, educational Russian podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Russian words, Russian idiomatic expressions",
+            "Learning strategies: Flashcards for Russian words, vocabulary notebooks",
+            "Practice activities: Russian conversation groups, journaling in Russian"
           ],
-          tip: "Регулярность важна – учитесь понемногу каждый день."
+          tip: "Consistency is essential – study Russian a little each day."
         }
       },
-      "Likely B1": {
-        short: "Отличный прогресс! Сосредоточьтесь на академическом словарном запасе и сложных выражениях.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Russian vocabulary and complex expressions.",
         detailed: {
-          title: "Выше Среднего Уровня – Продвинутый Словарный Запас",
-          description: "У вас есть прочная основа. Сосредоточьтесь на расширении вашего регистра.",
-          focus: "Академический словарный запас, сложные выражения & контекстуальное использование",
+          title: "Upper Intermediate Level – Advanced Russian Vocabulary",
+          description: "You have a solid Russian foundation. Focus on expanding your register and range.",
+          focus: "Academic Russian vocabulary, complex expressions & contextual usage",
           activities: [
-            "Чтение и Слушание: Статьи новостей, TED выступления, академические тексты",
-            "Построение словарного запаса: Академический список слов, семейства слов",
-            "Стратегии практики: Системы интервального повторения, дневники словарного запаса",
-            "Практика продукции: Писать эссе, участвовать в обсуждениях, презентации"
+            "Reading & Listening: Russian news articles, TED talks, academic Russian texts",
+            "Vocabulary building: Academic Russian word lists, Russian word families",
+            "Practice strategies: Spaced repetition systems, Russian vocabulary journals",
+            "Production practice: Writing Russian essays, discussions, Russian presentations"
           ],
-          tip: "Качество, а не количество – глубоко изучайте меньше слов."
-        }
-      },
-      "Solid B1": {
-        short: "Отличный прогресс! Сосредоточьтесь на академическом словарном запасе и сложных выражениях.",
-        detailed: {
-          title: "Выше Среднего Уровня – Продвинутый Словарный Запас",
-          description: "У вас есть прочная основа. Сосредоточьтесь на расширении вашего регистра.",
-          focus: "Академический словарный запас, сложные выражения & контекстуальное использование",
-          activities: [
-            "Чтение и Слушание: Статьи новостей, TED выступления, академические тексты",
-            "Построение словарного запаса: Академический список слов, семейства слов",
-            "Стратегии практики: Системы интервального повторения, дневники словарного запаса",
-            "Практика продукции: Писать эссе, участвовать в обсуждениях, презентации"
-          ],
-          tip: "Качество, а не количество – глубоко изучайте меньше слов."
-        }
-      },
-      "Likely B2": {
-        short: "Отличный прогресс! Сосредоточьтесь на академическом словарном запасе и сложных выражениях.",
-        detailed: {
-          title: "Выше Среднего Уровня – Продвинутый Словарный Запас",
-          description: "У вас есть прочная основа. Сосредоточьтесь на расширении вашего регистра.",
-          focus: "Академический словарный запас, сложные выражения & контекстуальное использование",
-          activities: [
-            "Чтение и Слушание: Статьи новостей, TED выступления, академические тексты",
-            "Построение словарного запаса: Академический список слов, семейства слов",
-            "Стратегии практики: Системы интервального повторения, дневники словарного запаса",
-            "Практика продукции: Писать эссе, участвовать в обсуждениях, презентации"
-          ],
-          tip: "Качество, а не количество – глубоко изучайте меньше слов."
+          tip: "Quality over quantity – learn fewer Russian words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Отличный прогресс! Сосредоточьтесь на академическом словарном запасе и сложных выражениях.",
+        short: "Excellent progress! Focus on academic Russian vocabulary and complex expressions.",
         detailed: {
-          title: "Выше Среднего Уровня – Продвинутый Словарный Запас",
-          description: "У вас есть прочная основа. Сосредоточьтесь на расширении вашего регистра.",
-          focus: "Академический словарный запас, сложные выражения & контекстуальное использование",
+          title: "Upper Intermediate Level – Advanced Russian Vocabulary",
+          description: "You have a solid Russian foundation. Focus on expanding your register and range.",
+          focus: "Academic Russian vocabulary, complex expressions & contextual usage",
           activities: [
-            "Чтение и Слушание: Статьи новостей, TED выступления, академические тексты",
-            "Построение словарного запаса: Академический список слов, семейства слов",
-            "Стратегии практики: Системы интервального повторения, дневники словарного запаса",
-            "Практика продукции: Писать эссе, участвовать в обсуждениях, презентации"
+            "Reading & Listening: Russian news articles, TED talks, academic Russian texts",
+            "Vocabulary building: Academic Russian word lists, Russian word families",
+            "Practice strategies: Spaced repetition systems, Russian vocabulary journals",
+            "Production practice: Writing Russian essays, discussions, Russian presentations"
           ],
-          tip: "Качество, а не количество – глубоко изучайте меньше слов."
+          tip: "Quality over quantity – learn fewer Russian words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Отлично! Ваш словарный запас находится на продвинутом уровне. Сосредоточьтесь на специализированной терминологии.",
+      "Approaching C1": {
+        short: "Excellent! Your Russian vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Продвинутый Уровень – Совершенствуем ваше Владение Русским",
-          description: "Ваш словарный запас находится на продвинутом уровне. Сосредоточьтесь на беглости, близкой к родной.",
-          focus: "Специализированный словарный запас, нюансированные выражения & академическая точность",
+          title: "Advanced Level – Refining Your Russian Mastery",
+          description: "Your Russian vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Russian vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Чтение: Академические журналы, литературные произведения, профессиональные публикации",
-            "Слушание: Академические лекции, конференции, документальные фильмы, анализ новостей",
-            "Расширение словарного запаса: Коллокации, идиоматические выражения, академическая терминология",
-            "Практика: Участвовать в дебатах, писать исследовательские статьи, презентации по сложным темам"
+            "Reading: Academic Russian journals, literary works, professional publications",
+            "Listening: Academic lectures, conferences, documentaries, Russian news analysis",
+            "Vocabulary expansion: Russian collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Russian debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Ставьте конкретные цели, такие как сдача продвинутых экзаменов по русскому языку."
+          tip: "Set specific goals such as passing advanced Russian proficiency exams."
         }
       },
       "Solid C1": {
-        short: "Отлично! Ваш словарный запас находится на продвинутом уровне. Сосредоточьтесь на специализированной терминологии.",
+        short: "Excellent! Your Russian vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Продвинутый Уровень – Совершенствуем ваше Владение Русским",
-          description: "Ваш словарный запас находится на продвинутом уровне. Сосредоточьтесь на беглости, близкой к родной.",
-          focus: "Специализированный словарный запас, нюансированные выражения & академическая точность",
+          title: "Advanced Level – Refining Your Russian Mastery",
+          description: "Your Russian vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Russian vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Чтение: Академические журналы, литературные произведения, профессиональные публикации",
-            "Слушание: Академические лекции, конференции, документальные фильмы, анализ новостей",
-            "Расширение словарного запаса: Коллокации, идиоматические выражения, академическая терминология",
-            "Практика: Участвовать в дебатах, писать исследовательские статьи, презентации по сложным темам"
+            "Reading: Academic Russian journals, literary works, professional publications",
+            "Listening: Academic lectures, conferences, documentaries, Russian news analysis",
+            "Vocabulary expansion: Russian collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Russian debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Ставьте конкретные цели, такие как сдача продвинутых экзаменов по русскому языку."
+          tip: "Set specific goals such as passing advanced Russian proficiency exams."
         }
       }
     }
@@ -1287,9 +985,9 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     name: "Dutch",
     nativeName: "Nederlands",
     flag: "🇳🇱",
-    title: "Nederlandse Woordenschat Test",
-    description: "Test uw competentie in het Nederlands van B1 tot C1",
-    welcomeText: "Welkom bij uw Nederlandse woordenschat test!",
+    title: "Dutch Vocabulary Size Test",
+    description: "Test your Dutch language proficiency from B1 to C1 levels",
+    welcomeText: "Welcome to your Dutch Vocabulary Size Test!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -1299,125 +997,101 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     ],
     recommendations: {
       "Below B1": {
-        short: "Concentreer u op de meest frequente woorden en basiscommunicatie.",
+        short: "Focus on learning the most frequent Dutch words and basic communication skills.",
         detailed: {
-          title: "Beginnersniveau – Uw Grondslagen Bouwen",
-          description: "U bouwt de grondslagen van uw Nederlandse woordenschat op. Concentreer u op de meest voorkomende woorden.",
-          focus: "Essentiële woordenschat & basiscommunicatie",
+          title: "Elementary Level – Building Your Dutch Foundation",
+          description: "You're building your Dutch vocabulary foundation. Focus on the most common Dutch words.",
+          focus: "Essential Dutch vocabulary & basic communication",
           activities: [
-            "Prioritaire woordenschat: De 1.000-2.000 meest frequente Nederlandse woorden",
-            "Leermaterialen: Boeken voor beginners, taal leer apps",
-            "Praktijkmethoden: Gebruik beelden en visuele associaties",
-            "Communicatiepraktijk: Basisgesprekken over vertrouwde onderwerpen"
+            "Priority vocabulary: The 1,000-2,000 most frequent Dutch words",
+            "Learning materials: Beginner Dutch textbooks, language learning apps",
+            "Practice methods: Use images and visual associations for Dutch words",
+            "Communication practice: Basic Dutch conversations on familiar topics"
           ],
-          tip: "Maak u geen zorgen over fouten – concentreer u op het uitdrukken van uw ideeën."
+          tip: "Don't worry about errors – focus on communicating your ideas in Dutch."
         }
       },
       "Approaching B1": {
-        short: "Concentreer u op de uitbreiding van uw basiswoordenschat.",
+        short: "Focus on expanding your core Dutch vocabulary and improving fluency.",
         detailed: {
-          title: "Gemiddeld Niveau – Uw Woordenschat Uitbreiden",
-          description: "U kunt dagelijkse situaties aan. Concentreer u op de uitbreiding van de woordenschat.",
-          focus: "Uitbreiding van basiswoordenschat & vloeiendheid",
+          title: "Intermediate Level – Expanding Your Dutch Vocabulary",
+          description: "You can handle everyday Dutch situations. Focus on expanding your vocabulary range.",
+          focus: "Core Dutch vocabulary expansion & fluency",
           activities: [
-            "Invoersbronnen: Gestrede lezers, educatieve podcasts in het Nederlands",
-            "Woordenschatprioriteiten: De 3.000 meest frequente woorden, idiomatische uitdrukkingen",
-            "Leerstategieën: Geheugenkaarten, woordenschatnotitieboeken",
-            "Praktijkactiviteiten: Gespreksgroepen, persoonlijke dagboeken"
+            "Input sources: Dutch graded readers, educational Dutch podcasts",
+            "Vocabulary priorities: The 3,000 most frequent Dutch words, Dutch idiomatic expressions",
+            "Learning strategies: Flashcards for Dutch words, vocabulary notebooks",
+            "Practice activities: Dutch conversation groups, journaling in Dutch"
           ],
-          tip: "Regelmaat is essentieel – studeer elke dag een beetje."
+          tip: "Consistency is essential – study Dutch a little each day."
         }
       },
-      "Likely B1": {
-        short: "Uitstekende vooruitgang! Concentreer u op academische woordenschat en complexe uitdrukkingen.",
+      "Approaching B2": {
+        short: "Excellent progress! Focus on academic Dutch vocabulary and complex expressions.",
         detailed: {
-          title: "Boven Gemiddeld Niveau – Geavanceerde Woordenschat",
-          description: "U heeft een solide basis. Concentreer u op de uitbreiding van uw register.",
-          focus: "Academische woordenschat, complexe uitdrukkingen & contextueel gebruik",
+          title: "Upper Intermediate Level – Advanced Dutch Vocabulary",
+          description: "You have a solid Dutch foundation. Focus on expanding your register and range.",
+          focus: "Academic Dutch vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lezen en Luisteren: Nieuwsartikelen, TED talks, academische teksten",
-            "Woordenschatopbouw: Academische woordenlijst, woordfamilies",
-            "Praktijkstrategieën: Gespreide herhalingssystemen, woordenschatdagboeken",
-            "Productiepraktijk: Essays schrijven, deelname aan discussies, presentaties"
+            "Reading & Listening: Dutch news articles, TED talks, academic Dutch texts",
+            "Vocabulary building: Academic Dutch word lists, Dutch word families",
+            "Practice strategies: Spaced repetition systems, Dutch vocabulary journals",
+            "Production practice: Writing Dutch essays, discussions, Dutch presentations"
           ],
-          tip: "Kwaliteit in plaats van kwantiteit – leer minder woorden dieper."
-        }
-      },
-      "Solid B1": {
-        short: "Uitstekende vooruitgang! Concentreer u op academische woordenschat en complexe uitdrukkingen.",
-        detailed: {
-          title: "Boven Gemiddeld Niveau – Geavanceerde Woordenschat",
-          description: "U heeft een solide basis. Concentreer u op de uitbreiding van uw register.",
-          focus: "Academische woordenschat, complexe uitdrukkingen & contextueel gebruik",
-          activities: [
-            "Lezen en Luisteren: Nieuwsartikelen, TED talks, academische teksten",
-            "Woordenschatopbouw: Academische woordenlijst, woordfamilies",
-            "Praktijkstrategieën: Gespreide herhalingssystemen, woordenschatdagboeken",
-            "Productiepraktijk: Essays schrijven, deelname aan discussies, presentaties"
-          ],
-          tip: "Kwaliteit in plaats van kwantiteit – leer minder woorden dieper."
-        }
-      },
-      "Likely B2": {
-        short: "Uitstekende vooruitgang! Concentreer u op academische woordenschat en complexe uitdrukkingen.",
-        detailed: {
-          title: "Boven Gemiddeld Niveau – Geavanceerde Woordenschat",
-          description: "U heeft een solide basis. Concentreer u op de uitbreiding van uw register.",
-          focus: "Academische woordenschat, complexe uitdrukkingen & contextueel gebruik",
-          activities: [
-            "Lezen en Luisteren: Nieuwsartikelen, TED talks, academische teksten",
-            "Woordenschatopbouw: Academische woordenlijst, woordfamilies",
-            "Praktijkstrategieën: Gespreide herhalingssystemen, woordenschatdagboeken",
-            "Productiepraktijk: Essays schrijven, deelname aan discussies, presentaties"
-          ],
-          tip: "Kwaliteit in plaats van kwantiteit – leer minder woorden dieper."
+          tip: "Quality over quantity – learn fewer Dutch words but learn them deeply."
         }
       },
       "Solid B2": {
-        short: "Uitstekende vooruitgang! Concentreer u op academische woordenschat en complexe uitdrukkingen.",
+        short: "Excellent progress! Focus on academic Dutch vocabulary and complex expressions.",
         detailed: {
-          title: "Boven Gemiddeld Niveau – Geavanceerde Woordenschat",
-          description: "U heeft een solide basis. Concentreer u op de uitbreiding van uw register.",
-          focus: "Academische woordenschat, complexe uitdrukkingen & contextueel gebruik",
+          title: "Upper Intermediate Level – Advanced Dutch Vocabulary",
+          description: "You have a solid Dutch foundation. Focus on expanding your register and range.",
+          focus: "Academic Dutch vocabulary, complex expressions & contextual usage",
           activities: [
-            "Lezen en Luisteren: Nieuwsartikelen, TED talks, academische teksten",
-            "Woordenschatopbouw: Academische woordenlijst, woordfamilies",
-            "Praktijkstrategieën: Gespreide herhalingssystemen, woordenschatdagboeken",
-            "Productiepraktijk: Essays schrijven, deelname aan discussies, presentaties"
+            "Reading & Listening: Dutch news articles, TED talks, academic Dutch texts",
+            "Vocabulary building: Academic Dutch word lists, Dutch word families",
+            "Practice strategies: Spaced repetition systems, Dutch vocabulary journals",
+            "Production practice: Writing Dutch essays, discussions, Dutch presentations"
           ],
-          tip: "Kwaliteit in plaats van kwantiteit – leer minder woorden dieper."
+          tip: "Quality over quantity – learn fewer Dutch words but learn them deeply."
         }
       },
-      "Likely C1": {
-        short: "Uitstekend! Uw woordenschat is op gevorderd niveau. Concentreer u op gespecialiseerde terminologie.",
+      "Approaching C1": {
+        short: "Excellent! Your Dutch vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Gevorderd Niveau – Uw Beheersing van het Nederlands Verfijnen",
-          description: "Uw woordenschat is op gevorderd niveau. Concentreer u op moedertaalachtige vloeiendheid.",
-          focus: "Gespecialiseerde woordenschat, genuanceerde uitdrukkingen & academische precisie",
+          title: "Advanced Level – Refining Your Dutch Mastery",
+          description: "Your Dutch vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Dutch vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lezen: Academische tijdschriften, literaire werken, professionele publicaties",
-            "Luisteren: Academische lezingen, conferenties, documentaires, nieuwsanalyses",
-            "Woordenschatuitbreiding: Collocaties, idiomatische uitdrukkingen, academische terminologie",
-            "Praktijk: Deelnemen aan debatten, onderzoekspapers schrijven, presentaties over complexe onderwerpen"
+            "Reading: Academic Dutch journals, literary works, professional publications",
+            "Listening: Academic lectures, conferences, documentaries, Dutch news analysis",
+            "Vocabulary expansion: Dutch collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Dutch debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Stel specifieke doelen zoals slagen voor gevorderde Nederlandse competentie-examens."
+          tip: "Set specific goals such as passing advanced Dutch proficiency exams."
         }
       },
       "Solid C1": {
-        short: "Uitstekend! Uw woordenschat is op gevorderd niveau. Concentreer u op gespecialiseerde terminologie.",
+        short: "Excellent! Your Dutch vocabulary is at an advanced level. Focus on specialized terminology.",
         detailed: {
-          title: "Gevorderd Niveau – Uw Beheersing van het Nederlands Verfijnen",
-          description: "Uw woordenschat is op gevorderd niveau. Concentreer u op moedertaalachtige vloeiendheid.",
-          focus: "Gespecialiseerde woordenschat, genuanceerde uitdrukkingen & academische precisie",
+          title: "Advanced Level – Refining Your Dutch Mastery",
+          description: "Your Dutch vocabulary is at an advanced level. Focus on approaching native-like fluency.",
+          focus: "Specialized Dutch vocabulary, nuanced expressions & academic precision",
           activities: [
-            "Lezen: Academische tijdschriften, literaire werken, professionele publicaties",
-            "Luisteren: Academische lezingen, conferenties, documentaires, nieuwsanalyses",
-            "Woordenschatuitbreiding: Collocaties, idiomatische uitdrukkingen, academische terminologie",
-            "Praktijk: Deelnemen aan debatten, onderzoekspapers schrijven, presentaties over complexe onderwerpen"
+            "Reading: Academic Dutch journals, literary works, professional publications",
+            "Listening: Academic lectures, conferences, documentaries, Dutch news analysis",
+            "Vocabulary expansion: Dutch collocations, idiomatic expressions, academic terminology",
+            "Practice: Engaging in Dutch debates, writing research papers, presentations on complex topics"
           ],
-          tip: "Stel specifieke doelen zoals slagen voor gevorderde Nederlandse competentie-examens."
+          tip: "Set specific goals such as passing advanced Dutch proficiency exams."
         }
       }
     }
   }
 }
+
+
+
+
+
+
