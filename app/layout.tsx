@@ -6,8 +6,8 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "German Proficiency Test (B1-C1)",
-  description: "Test your German language proficiency from B1 to C1 levels",
+  title: "Paul Nation Language Academy - Vocabulary Tests",
+  description: "Test your language proficiency across 10 languages from B1 to C1 levels",
     generator: 'v0.dev'
 }
 
