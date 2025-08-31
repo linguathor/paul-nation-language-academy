@@ -125,7 +125,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇫🇷",
     title: "French Vocabulary Size Test",
     description: "Test your French language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your French Vocabulary Size Test!",
+    welcomeText: "Bienvenue à votre test de vocabulaire français !",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -235,7 +235,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇪🇸",
     title: "Spanish Vocabulary Size Test",
     description: "Test your Spanish language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Spanish Vocabulary Size Test!",
+    welcomeText: "¡Bienvenido a tu test de vocabulario español!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -345,7 +345,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇩🇪",
     title: "German Vocabulary Size Test",
     description: "Test your German language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your German Vocabulary Size Test!",
+    welcomeText: "Willkommen zu Ihrem deutschen Wortschatztest!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -440,7 +440,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇨🇳",
     title: "Chinese Vocabulary Size Test",
     description: "Test your Chinese language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Chinese Vocabulary Size Test!",
+    welcomeText: "欢迎参加您的中文词汇量测试！",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -550,7 +550,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇮🇹",
     title: "Italian Vocabulary Size Test",
     description: "Test your Italian language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Italian Vocabulary Size Test!",
+    welcomeText: "Benvenuto al tuo test di vocabolario italiano!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -660,7 +660,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇯🇵",
     title: "Japanese Vocabulary Size Test",
     description: "Test your Japanese language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Japanese Vocabulary Size Test!",
+    welcomeText: "日本語語彙力テストへようこそ！",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -769,7 +769,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇵🇹",
     title: "Portuguese Vocabulary Size Test",
     description: "Test your Portuguese language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Portuguese Vocabulary Size Test!",
+    welcomeText: "Bem-vindo ao seu teste de vocabulário português!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -878,7 +878,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇷🇺",
     title: "Russian Vocabulary Size Test",
     description: "Test your Russian language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Russian Vocabulary Size Test!",
+    welcomeText: "Добро пожаловать на ваш тест словарного запаса русского языка!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
@@ -987,7 +987,7 @@ export const languageConfigs: { [key: string]: LanguageConfig } = {
     flag: "🇳🇱",
     title: "Dutch Vocabulary Size Test",
     description: "Test your Dutch language proficiency from B1 to C1 levels",
-    welcomeText: "Welcome to your Dutch Vocabulary Size Test!",
+    welcomeText: "Welkom bij uw Nederlandse woordenschattest!",
     instructions: [
       "You'll answer 30 questions on vocabulary.",
       "After each answer, you'll get instant feedback (correct/incorrect) and a rationale.",
